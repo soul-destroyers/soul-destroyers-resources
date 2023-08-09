@@ -33,6 +33,27 @@
                 "assets\\animated_java\\textures\\item\\body\\illusioner.png",
                 "assets\\minecraft\\models\\item\\animated_java_empty.json"
             ]
+        },
+        "643fec04-b7e2-78d0-4148-e507458e84a2": {
+            "project_name": "skeleton_1",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\skeleton_1\\right_leg.json",
+                "assets\\animated_java\\models\\item\\skeleton_1\\left_leg.json",
+                "assets\\animated_java\\models\\item\\skeleton_1\\right_arm.json",
+                "assets\\animated_java\\models\\item\\skeleton_1\\left_arm.json",
+                "assets\\animated_java\\models\\item\\skeleton_1\\body.json",
+                "assets\\animated_java\\models\\item\\skeleton_1\\headwear.json",
+                "assets\\animated_java\\models\\item\\skeleton_1\\head.json",
+                "assets\\animated_java\\models\\item\\skeleton_1\\sitting\\right_leg.json",
+                "assets\\animated_java\\models\\item\\skeleton_1\\sitting\\left_leg.json",
+                "assets\\animated_java\\models\\item\\skeleton_1\\sitting\\right_arm.json",
+                "assets\\animated_java\\models\\item\\skeleton_1\\sitting\\left_arm.json",
+                "assets\\animated_java\\models\\item\\skeleton_1\\sitting\\body.json",
+                "assets\\animated_java\\models\\item\\skeleton_1\\sitting\\headwear.json",
+                "assets\\animated_java\\models\\item\\skeleton_1\\sitting\\head.json",
+                "assets\\animated_java\\textures\\item\\skeleton_1\\skeleton.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
         }
     }
 }
