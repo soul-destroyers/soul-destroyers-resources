@@ -1,0 +1,84 @@
+{
+	"textures": {
+		"1": "animated_java:item/beggar_1/homeless_drunk_beggar_dirty_smelly_man_grigorich_this_is_my_mushroom_on_planetminecraft_com"
+	},
+	"elements": [
+		{
+			"from": [
+				17,
+				-2,
+				6
+			],
+			"to": [
+				21,
+				10,
+				10
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						11,
+						5,
+						12,
+						8
+					],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [
+						10,
+						5,
+						11,
+						8
+					],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [
+						13,
+						5,
+						14,
+						8
+					],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [
+						12,
+						5,
+						13,
+						8
+					],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [
+						12,
+						5,
+						11,
+						4
+					],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [
+						13,
+						4,
+						12,
+						5
+					],
+					"texture": "#1"
+				}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [
+				0,
+				180,
+				0
+			]
+		}
+	}
+}

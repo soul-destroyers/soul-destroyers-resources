@@ -117,6 +117,23 @@
                 "assets\\animated_java\\textures\\item\\menu_title\\the_hero.png",
                 "assets\\minecraft\\models\\item\\animated_java_empty.json"
             ]
+        },
+        "ab92fd0f-40d4-9fca-3a5d-9374f520b716": {
+            "project_name": "beggar_1",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\beggar_1\\head.json",
+                "assets\\animated_java\\models\\item\\beggar_1\\headwear.json",
+                "assets\\animated_java\\models\\item\\beggar_1\\body.json",
+                "assets\\animated_java\\models\\item\\beggar_1\\jacket.json",
+                "assets\\animated_java\\models\\item\\beggar_1\\right_arm.json",
+                "assets\\animated_java\\models\\item\\beggar_1\\right_sleve.json",
+                "assets\\animated_java\\models\\item\\beggar_1\\right_pants.json",
+                "assets\\animated_java\\models\\item\\beggar_1\\right_leg.json",
+                "assets\\animated_java\\models\\item\\beggar_1\\left_sleve.json",
+                "assets\\animated_java\\models\\item\\beggar_1\\left_arm.json",
+                "assets\\animated_java\\textures\\item\\beggar_1\\homeless_drunk_beggar_dirty_smelly_man_grigorich_this_is_my_mushroom_on_planetminecraft_com.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
         }
     }
 }
