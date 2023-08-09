@@ -1,0 +1,93 @@
+{
+	"textures": {
+		"0": "animated_java:item/horse_skeleton_1/skeleton_horse"
+	},
+	"elements": [
+		{
+			"from": [
+				7,
+				-7.5,
+				7
+			],
+			"to": [
+				11,
+				14.5,
+				11
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					12,
+					-2,
+					0
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						14,
+						6.25,
+						13,
+						9
+					],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [
+						15,
+						6.25,
+						14,
+						9
+					],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [
+						16,
+						6.25,
+						15,
+						9
+					],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [
+						13,
+						6.25,
+						12,
+						9
+					],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [
+						13,
+						6.25,
+						14,
+						5.25
+					],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [
+						14,
+						5.25,
+						15,
+						6.25
+					],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [
+				0,
+				180,
+				0
+			]
+		}
+	}
+}

@@ -75,6 +75,34 @@
                 "assets\\animated_java\\textures\\item\\skeleton_lying_1\\skeleton.png",
                 "assets\\minecraft\\models\\item\\animated_java_empty.json"
             ]
+        },
+        "e6dbbdb6-cfed-f63c-5502-fbaa09ce0952": {
+            "project_name": "horse_skeleton_1",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\left_rein.json",
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\right_rein.json",
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\saddle.json",
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\head.json",
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\right_bit.json",
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\left_bit.json",
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\noseband.json",
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\headpiece.json",
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\child_back_right_leg.json",
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\child_back_left_leg.json",
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\child_front_right_leg.json",
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\child_front_left_leg.json",
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\back_left_leg.json",
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\front_left_leg.json",
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\tail.json",
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\body.json",
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\mane.json",
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\neck.json",
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\right_ear.json",
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\left_ear.json",
+                "assets\\animated_java\\models\\item\\horse_skeleton_1\\mouth.json",
+                "assets\\animated_java\\textures\\item\\horse_skeleton_1\\skeleton_horse.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
         }
     }
 }
