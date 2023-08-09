@@ -1,0 +1,38 @@
+{
+    "version": "0.4.6",
+    "projects": {
+        "add82de8-0c8b-323f-3a22-a1c895da0bd8": {
+            "project_name": "guardian_poc",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\guardian_poc\\head.json",
+                "assets\\animated_java\\models\\item\\guardian_poc\\nose.json",
+                "assets\\animated_java\\models\\item\\guardian_poc\\hat.json",
+                "assets\\animated_java\\models\\item\\guardian_poc\\body.json",
+                "assets\\animated_java\\models\\item\\guardian_poc\\mirrored.json",
+                "assets\\animated_java\\models\\item\\guardian_poc\\arms.json",
+                "assets\\animated_java\\models\\item\\guardian_poc\\left_arm.json",
+                "assets\\animated_java\\models\\item\\guardian_poc\\right_arm.json",
+                "assets\\animated_java\\models\\item\\guardian_poc\\left_leg.json",
+                "assets\\animated_java\\models\\item\\guardian_poc\\right_leg.json",
+                "assets\\animated_java\\textures\\item\\guardian_poc\\illusioner.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
+        },
+        "64cef507-e86c-b829-5002-029017504ba6": {
+            "project_name": "body",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\body\\head.json",
+                "assets\\animated_java\\models\\item\\body\\nose.json",
+                "assets\\animated_java\\models\\item\\body\\hat.json",
+                "assets\\animated_java\\models\\item\\body\\body.json",
+                "assets\\animated_java\\models\\item\\body\\arms.json",
+                "assets\\animated_java\\models\\item\\body\\left_arm.json",
+                "assets\\animated_java\\models\\item\\body\\right_arm.json",
+                "assets\\animated_java\\models\\item\\body\\left_leg.json",
+                "assets\\animated_java\\models\\item\\body\\right_leg.json",
+                "assets\\animated_java\\textures\\item\\body\\illusioner.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
+        }
+    }
+}

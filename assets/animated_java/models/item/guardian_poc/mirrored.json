@@ -1,0 +1,84 @@
+{
+	"textures": {
+		"0": "animated_java:item/guardian_poc/illusioner"
+	},
+	"elements": [
+		{
+			"from": [
+				0,
+				24,
+				6
+			],
+			"to": [
+				4,
+				32,
+				10
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						13,
+						6.5,
+						12,
+						8.5
+					],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [
+						14,
+						6.5,
+						13,
+						8.5
+					],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [
+						15,
+						6.5,
+						14,
+						8.5
+					],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [
+						12,
+						6.5,
+						11,
+						8.5
+					],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [
+						12,
+						6.5,
+						13,
+						5.5
+					],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [
+						13,
+						5.5,
+						14,
+						6.5
+					],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [
+				0,
+				180,
+				0
+			]
+		}
+	}
+}

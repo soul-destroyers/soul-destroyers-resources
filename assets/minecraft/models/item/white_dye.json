@@ -1,0 +1,159 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "minecraft:item/white_dye"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "item/animated_java_empty"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "animated_java:item/guardian_poc/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "animated_java:item/guardian_poc/nose"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4
+			},
+			"model": "animated_java:item/guardian_poc/hat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 5
+			},
+			"model": "animated_java:item/guardian_poc/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6
+			},
+			"model": "animated_java:item/guardian_poc/mirrored"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 7
+			},
+			"model": "animated_java:item/guardian_poc/arms"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 8
+			},
+			"model": "animated_java:item/guardian_poc/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 9
+			},
+			"model": "animated_java:item/guardian_poc/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 10
+			},
+			"model": "animated_java:item/guardian_poc/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 11
+			},
+			"model": "animated_java:item/guardian_poc/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 12
+			},
+			"model": "animated_java:item/body/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 13
+			},
+			"model": "animated_java:item/body/nose"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 14
+			},
+			"model": "animated_java:item/body/hat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 15
+			},
+			"model": "animated_java:item/body/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 16
+			},
+			"model": "animated_java:item/body/arms"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 17
+			},
+			"model": "animated_java:item/body/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 18
+			},
+			"model": "animated_java:item/body/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 19
+			},
+			"model": "animated_java:item/body/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 20
+			},
+			"model": "animated_java:item/body/right_leg"
+		}
+	],
+	"animated_java": {
+		"rigs": {
+			"guardian_poc": {
+				"used_ids": [
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10,
+					11
+				]
+			},
+			"body": {
+				"used_ids": [
+					12,
+					13,
+					14,
+					15,
+					16,
+					17,
+					18,
+					19,
+					20
+				]
+			}
+		}
+	}
+}

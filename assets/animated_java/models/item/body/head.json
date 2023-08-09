@@ -1,0 +1,93 @@
+{
+	"textures": {
+		"0": "animated_java:item/body/illusioner"
+	},
+	"elements": [
+		{
+			"from": [
+				4,
+				8,
+				4
+			],
+			"to": [
+				12,
+				18,
+				12
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "x",
+				"origin": [
+					8,
+					-16,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						2,
+						2,
+						4,
+						4.5
+					],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [
+						0,
+						2,
+						2,
+						4.5
+					],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [
+						6,
+						2,
+						8,
+						4.5
+					],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [
+						4,
+						2,
+						6,
+						4.5
+					],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [
+						4,
+						2,
+						2,
+						0
+					],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [
+						6,
+						0,
+						4,
+						2
+					],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [
+				0,
+				180,
+				0
+			]
+		}
+	}
+}
