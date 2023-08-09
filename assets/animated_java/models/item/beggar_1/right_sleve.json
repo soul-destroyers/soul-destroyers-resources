@@ -14,6 +14,15 @@
 				10.25,
 				10.25
 			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					13,
+					-14,
+					8
+				]
+			},
 			"faces": {
 				"north": {
 					"uv": [
