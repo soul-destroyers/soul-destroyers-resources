@@ -44,6 +44,13 @@
                 "assets\\animated_java\\models\\item\\skeleton_1\\body.json",
                 "assets\\animated_java\\models\\item\\skeleton_1\\headwear.json",
                 "assets\\animated_java\\models\\item\\skeleton_1\\head.json",
+                "assets\\animated_java\\models\\item\\skeleton_1\\new_variant\\right_leg.json",
+                "assets\\animated_java\\models\\item\\skeleton_1\\new_variant\\left_leg.json",
+                "assets\\animated_java\\models\\item\\skeleton_1\\new_variant\\right_arm.json",
+                "assets\\animated_java\\models\\item\\skeleton_1\\new_variant\\left_arm.json",
+                "assets\\animated_java\\models\\item\\skeleton_1\\new_variant\\body.json",
+                "assets\\animated_java\\models\\item\\skeleton_1\\new_variant\\headwear.json",
+                "assets\\animated_java\\models\\item\\skeleton_1\\new_variant\\head.json",
                 "assets\\animated_java\\models\\item\\skeleton_1\\sitting\\right_leg.json",
                 "assets\\animated_java\\models\\item\\skeleton_1\\sitting\\left_leg.json",
                 "assets\\animated_java\\models\\item\\skeleton_1\\sitting\\right_arm.json",
@@ -52,6 +59,20 @@
                 "assets\\animated_java\\models\\item\\skeleton_1\\sitting\\headwear.json",
                 "assets\\animated_java\\models\\item\\skeleton_1\\sitting\\head.json",
                 "assets\\animated_java\\textures\\item\\skeleton_1\\skeleton.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
+        },
+        "07a1d7c2-67e6-2cc2-0750-dd993c481568": {
+            "project_name": "skeleton_lying_1",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\skeleton_lying_1\\right_leg.json",
+                "assets\\animated_java\\models\\item\\skeleton_lying_1\\left_leg.json",
+                "assets\\animated_java\\models\\item\\skeleton_lying_1\\right_arm.json",
+                "assets\\animated_java\\models\\item\\skeleton_lying_1\\left_arm.json",
+                "assets\\animated_java\\models\\item\\skeleton_lying_1\\body.json",
+                "assets\\animated_java\\models\\item\\skeleton_lying_1\\headwear.json",
+                "assets\\animated_java\\models\\item\\skeleton_lying_1\\head.json",
+                "assets\\animated_java\\textures\\item\\skeleton_lying_1\\skeleton.png",
                 "assets\\minecraft\\models\\item\\animated_java_empty.json"
             ]
         }

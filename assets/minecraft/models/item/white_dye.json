@@ -170,43 +170,127 @@
 			"predicate": {
 				"custom_model_data": 28
 			},
-			"model": "animated_java:item/skeleton_1/sitting/right_leg"
+			"model": "animated_java:item/skeleton_1/new_variant/right_leg"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 29
 			},
-			"model": "animated_java:item/skeleton_1/sitting/left_leg"
+			"model": "animated_java:item/skeleton_1/new_variant/left_leg"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 30
 			},
-			"model": "animated_java:item/skeleton_1/sitting/right_arm"
+			"model": "animated_java:item/skeleton_1/new_variant/right_arm"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 31
 			},
-			"model": "animated_java:item/skeleton_1/sitting/left_arm"
+			"model": "animated_java:item/skeleton_1/new_variant/left_arm"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 32
 			},
-			"model": "animated_java:item/skeleton_1/sitting/body"
+			"model": "animated_java:item/skeleton_1/new_variant/body"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 33
 			},
-			"model": "animated_java:item/skeleton_1/sitting/headwear"
+			"model": "animated_java:item/skeleton_1/new_variant/headwear"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 34
 			},
+			"model": "animated_java:item/skeleton_1/new_variant/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 35
+			},
+			"model": "animated_java:item/skeleton_1/sitting/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 36
+			},
+			"model": "animated_java:item/skeleton_1/sitting/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 37
+			},
+			"model": "animated_java:item/skeleton_1/sitting/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 38
+			},
+			"model": "animated_java:item/skeleton_1/sitting/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 39
+			},
+			"model": "animated_java:item/skeleton_1/sitting/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 40
+			},
+			"model": "animated_java:item/skeleton_1/sitting/headwear"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 41
+			},
 			"model": "animated_java:item/skeleton_1/sitting/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 42
+			},
+			"model": "animated_java:item/skeleton_lying_1/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 43
+			},
+			"model": "animated_java:item/skeleton_lying_1/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 44
+			},
+			"model": "animated_java:item/skeleton_lying_1/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 45
+			},
+			"model": "animated_java:item/skeleton_lying_1/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 46
+			},
+			"model": "animated_java:item/skeleton_lying_1/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 47
+			},
+			"model": "animated_java:item/skeleton_lying_1/headwear"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 48
+			},
+			"model": "animated_java:item/skeleton_lying_1/head"
 		}
 	],
 	"animated_java": {
@@ -253,7 +337,25 @@
 					31,
 					32,
 					33,
-					34
+					34,
+					35,
+					36,
+					37,
+					38,
+					39,
+					40,
+					41
+				]
+			},
+			"skeleton_lying_1": {
+				"used_ids": [
+					42,
+					43,
+					44,
+					45,
+					46,
+					47,
+					48
 				]
 			}
 		}
