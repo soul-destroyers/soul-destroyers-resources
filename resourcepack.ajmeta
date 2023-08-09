@@ -103,6 +103,20 @@
                 "assets\\animated_java\\textures\\item\\horse_skeleton_1\\skeleton_horse.png",
                 "assets\\minecraft\\models\\item\\animated_java_empty.json"
             ]
+        },
+        "b8cda05a-36a2-4562-faaa-0e57f082403d": {
+            "project_name": "menu_title",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\menu_title\\t.json",
+                "assets\\animated_java\\models\\item\\menu_title\\h.json",
+                "assets\\animated_java\\models\\item\\menu_title\\e.json",
+                "assets\\animated_java\\models\\item\\menu_title\\h2.json",
+                "assets\\animated_java\\models\\item\\menu_title\\e2.json",
+                "assets\\animated_java\\models\\item\\menu_title\\r.json",
+                "assets\\animated_java\\models\\item\\menu_title\\o.json",
+                "assets\\animated_java\\textures\\item\\menu_title\\the_hero.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
         }
     }
 }

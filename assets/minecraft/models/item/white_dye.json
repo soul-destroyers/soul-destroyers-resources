@@ -417,6 +417,48 @@
 				"custom_model_data": 69
 			},
 			"model": "animated_java:item/horse_skeleton_1/mouth"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 70
+			},
+			"model": "animated_java:item/menu_title/t"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 71
+			},
+			"model": "animated_java:item/menu_title/h"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 72
+			},
+			"model": "animated_java:item/menu_title/e"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 73
+			},
+			"model": "animated_java:item/menu_title/h2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 74
+			},
+			"model": "animated_java:item/menu_title/e2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 75
+			},
+			"model": "animated_java:item/menu_title/r"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 76
+			},
+			"model": "animated_java:item/menu_title/o"
 		}
 	],
 	"animated_java": {
@@ -507,6 +549,17 @@
 					67,
 					68,
 					69
+				]
+			},
+			"menu_title": {
+				"used_ids": [
+					70,
+					71,
+					72,
+					73,
+					74,
+					75,
+					76
 				]
 			}
 		}
