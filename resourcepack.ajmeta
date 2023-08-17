@@ -134,6 +134,25 @@
                 "assets\\animated_java\\textures\\item\\beggar_1\\homeless_drunk_beggar_dirty_smelly_man_grigorich_this_is_my_mushroom_on_planetminecraft_com.png",
                 "assets\\minecraft\\models\\item\\animated_java_empty.json"
             ]
+        },
+        "89ee7d41-5a22-f3b9-7c3a-c2a744fffe6f": {
+            "project_name": "fish_seller",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\fish_seller\\head.json",
+                "assets\\animated_java\\models\\item\\fish_seller\\headwear.json",
+                "assets\\animated_java\\models\\item\\fish_seller\\body.json",
+                "assets\\animated_java\\models\\item\\fish_seller\\jacket.json",
+                "assets\\animated_java\\models\\item\\fish_seller\\left_arm.json",
+                "assets\\animated_java\\models\\item\\fish_seller\\left_sleve.json",
+                "assets\\animated_java\\models\\item\\fish_seller\\right_arm.json",
+                "assets\\animated_java\\models\\item\\fish_seller\\right_sleve.json",
+                "assets\\animated_java\\models\\item\\fish_seller\\left_leg.json",
+                "assets\\animated_java\\models\\item\\fish_seller\\left_pants.json",
+                "assets\\animated_java\\models\\item\\fish_seller\\right_leg.json",
+                "assets\\animated_java\\models\\item\\fish_seller\\right_pants.json",
+                "assets\\animated_java\\textures\\item\\fish_seller\\medieval_merchant_on_planetminecraft_com.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
         }
     }
 }

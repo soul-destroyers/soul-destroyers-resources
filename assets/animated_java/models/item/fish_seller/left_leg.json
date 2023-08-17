@@ -1,0 +1,84 @@
+{
+	"textures": {
+		"0": "animated_java:item/fish_seller/medieval_merchant_on_planetminecraft_com"
+	},
+	"elements": [
+		{
+			"from": [
+				2,
+				-4,
+				6
+			],
+			"to": [
+				6,
+				8,
+				10
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						1,
+						5,
+						2,
+						8
+					],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [
+						2,
+						5,
+						3,
+						8
+					],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [
+						3,
+						5,
+						4,
+						8
+					],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [
+						3,
+						5,
+						4,
+						8
+					],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [
+						12,
+						5,
+						11,
+						4
+					],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [
+						12,
+						4,
+						11,
+						5
+					],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [
+				0,
+				180,
+				0
+			]
+		}
+	}
+}

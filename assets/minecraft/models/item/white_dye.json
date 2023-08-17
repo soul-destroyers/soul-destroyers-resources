@@ -519,6 +519,78 @@
 				"custom_model_data": 86
 			},
 			"model": "animated_java:item/beggar_1/headwear"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 87
+			},
+			"model": "animated_java:item/fish_seller/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 88
+			},
+			"model": "animated_java:item/fish_seller/headwear"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 89
+			},
+			"model": "animated_java:item/fish_seller/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90
+			},
+			"model": "animated_java:item/fish_seller/jacket"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 91
+			},
+			"model": "animated_java:item/fish_seller/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 92
+			},
+			"model": "animated_java:item/fish_seller/left_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 93
+			},
+			"model": "animated_java:item/fish_seller/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 94
+			},
+			"model": "animated_java:item/fish_seller/right_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 95
+			},
+			"model": "animated_java:item/fish_seller/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 96
+			},
+			"model": "animated_java:item/fish_seller/left_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 97
+			},
+			"model": "animated_java:item/fish_seller/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 98
+			},
+			"model": "animated_java:item/fish_seller/right_pants"
 		}
 	],
 	"animated_java": {
@@ -634,6 +706,22 @@
 					84,
 					85,
 					86
+				]
+			},
+			"fish_seller": {
+				"used_ids": [
+					87,
+					88,
+					89,
+					90,
+					91,
+					92,
+					93,
+					94,
+					95,
+					96,
+					97,
+					98
 				]
 			}
 		}
