@@ -13,5 +13,10 @@
             "random/explode4"
         ],
         "subtitle": "subtitles.entity.generic.explode"
+    },
+    "cave.ambient1": {
+        "sounds": [
+            "cave/_ambient1"
+        ]
     }
 }
