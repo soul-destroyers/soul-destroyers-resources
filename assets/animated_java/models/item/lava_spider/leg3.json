@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"0": "animated_java:item/lava_spider/texture"
+		"0": "animated_java:item/lava_spider/lava_spider"
 	},
 	"elements": [
 		{

@@ -166,7 +166,7 @@
                 "assets\\animated_java\\models\\item\\lava_spider\\leg6.json",
                 "assets\\animated_java\\models\\item\\lava_spider\\leg7.json",
                 "assets\\animated_java\\models\\item\\lava_spider\\leg8.json",
-                "assets\\animated_java\\textures\\item\\lava_spider\\texture.png",
+                "assets\\animated_java\\textures\\item\\lava_spider\\lava_spider.png",
                 "assets\\minecraft\\models\\item\\animated_java_empty.json"
             ]
         }
