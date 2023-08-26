@@ -153,6 +153,22 @@
                 "assets\\animated_java\\textures\\item\\fish_seller\\medieval_merchant_on_planetminecraft_com.png",
                 "assets\\minecraft\\models\\item\\animated_java_empty.json"
             ]
+        },
+        "df80e4c3-36a7-d204-4073-5798b58f1607": {
+            "project_name": "lava_spider",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\lava_spider\\body.json",
+                "assets\\animated_java\\models\\item\\lava_spider\\leg.json",
+                "assets\\animated_java\\models\\item\\lava_spider\\leg2.json",
+                "assets\\animated_java\\models\\item\\lava_spider\\leg3.json",
+                "assets\\animated_java\\models\\item\\lava_spider\\leg4.json",
+                "assets\\animated_java\\models\\item\\lava_spider\\leg5.json",
+                "assets\\animated_java\\models\\item\\lava_spider\\leg6.json",
+                "assets\\animated_java\\models\\item\\lava_spider\\leg7.json",
+                "assets\\animated_java\\models\\item\\lava_spider\\leg8.json",
+                "assets\\animated_java\\textures\\item\\lava_spider\\texture.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
         }
     }
 }

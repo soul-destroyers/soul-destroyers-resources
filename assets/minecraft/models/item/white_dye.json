@@ -591,6 +591,60 @@
 				"custom_model_data": 98
 			},
 			"model": "animated_java:item/fish_seller/right_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 99
+			},
+			"model": "animated_java:item/lava_spider/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100
+			},
+			"model": "animated_java:item/lava_spider/leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 101
+			},
+			"model": "animated_java:item/lava_spider/leg2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 102
+			},
+			"model": "animated_java:item/lava_spider/leg3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 103
+			},
+			"model": "animated_java:item/lava_spider/leg4"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 104
+			},
+			"model": "animated_java:item/lava_spider/leg5"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 105
+			},
+			"model": "animated_java:item/lava_spider/leg6"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 106
+			},
+			"model": "animated_java:item/lava_spider/leg7"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 107
+			},
+			"model": "animated_java:item/lava_spider/leg8"
 		}
 	],
 	"animated_java": {
@@ -722,6 +776,19 @@
 					96,
 					97,
 					98
+				]
+			},
+			"lava_spider": {
+				"used_ids": [
+					99,
+					100,
+					101,
+					102,
+					103,
+					104,
+					105,
+					106,
+					107
 				]
 			}
 		}
