@@ -1,0 +1,7 @@
+{
+	"parent": "animated_java:item/lava_spider/leg3",
+	"textures": {
+		"0": "animated_java:item/lava_spider/lava_spider_damaged",
+		"1": "animated_java:item/lava_spider/lava_spider_damaged"
+	}
+}

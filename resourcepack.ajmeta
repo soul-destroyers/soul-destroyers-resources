@@ -166,7 +166,17 @@
                 "assets\\animated_java\\models\\item\\lava_spider\\leg6.json",
                 "assets\\animated_java\\models\\item\\lava_spider\\leg7.json",
                 "assets\\animated_java\\models\\item\\lava_spider\\leg8.json",
+                "assets\\animated_java\\models\\item\\lava_spider\\damage\\body.json",
+                "assets\\animated_java\\models\\item\\lava_spider\\damage\\leg.json",
+                "assets\\animated_java\\models\\item\\lava_spider\\damage\\leg2.json",
+                "assets\\animated_java\\models\\item\\lava_spider\\damage\\leg3.json",
+                "assets\\animated_java\\models\\item\\lava_spider\\damage\\leg4.json",
+                "assets\\animated_java\\models\\item\\lava_spider\\damage\\leg5.json",
+                "assets\\animated_java\\models\\item\\lava_spider\\damage\\leg6.json",
+                "assets\\animated_java\\models\\item\\lava_spider\\damage\\leg7.json",
+                "assets\\animated_java\\models\\item\\lava_spider\\damage\\leg8.json",
                 "assets\\animated_java\\textures\\item\\lava_spider\\lava_spider.png",
+                "assets\\animated_java\\textures\\item\\lava_spider\\lava_spider_damaged.png",
                 "assets\\minecraft\\models\\item\\animated_java_empty.json"
             ]
         }
