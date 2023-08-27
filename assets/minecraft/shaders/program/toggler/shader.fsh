@@ -85,4 +85,12 @@ void main() {
             break;
     }
 
+    // Channel #3
+    control_color = texelFetch(ControlSampler, ivec2(0, 3), 0);
+    int effectValue = int(control_color.b * 255.);
+
+    if (effectValue != 0) {
+        float intensity = max(0.0, 0.5 - uv.y);
+        fragColor = mix(fragColor, vec4(103.0 / 255, 255.0 / 255.0, 244.0 / 255.0, 1.0), intensity * sin(control_color.b * 3.14));
+    }
 }
