@@ -91,6 +91,10 @@ void main() {
 
     if (effectValue != 0) {
         float intensity = max(0.0, 0.5 - uv.y);
-        fragColor = mix(fragColor, vec4(103.0 / 255, 255.0 / 255.0, 244.0 / 255.0, 1.0), intensity * sin(control_color.b * 3.14));
+        fragColor = mix(
+            fragColor, 
+            vec4(103.0 / 255, 255.0 / 255.0, 244.0 / 255.0, 1.0), 
+            intensity * sin(max(0.4, control_color.b) * 3.14)
+        );
     }
 }
