@@ -46,7 +46,9 @@ const float exposure = 2.;
 const float AOE = 8.;
 
 void main() {
-    vec4 prev_color  = texture(DiffuseSampler, texCoord);
+    vec4 prev_color = texture(DiffuseSampler, texCoord);
+
+
 	fragColor = prev_color;
 
     vec2 uv = texCoord;
@@ -100,4 +102,22 @@ void main() {
             intensity * sin(max(0.4, control_color.b) * 3.14)
         );
     }
+
+    //Channel #4
+    // Cursed forest nausea
+    control_color = texelFetch(ControlSampler, ivec2(0, 4), 0);
+    int nauseaValue = int(control_color.b * 255.);
+    if (nauseaValue != 0) {
+        float range = 0.01;
+        vec4 illusion = min(
+            vec4(0.7, 0.7, 0.7, 1.0),
+            (texture(DiffuseSampler, texCoord)
+            + texture(DiffuseSampler, texCoord + vec2(-range, -range))
+            + texture(DiffuseSampler, texCoord + vec2(+range, -range))
+            + texture(DiffuseSampler, texCoord + vec2(-range, +range))
+            + texture(DiffuseSampler, texCoord + vec2(range, range))) * 0.6
+        );
+        fragColor = fragColor + vec4(0.08, -0.24, 0.2, 1.0);
+    }
+
 }

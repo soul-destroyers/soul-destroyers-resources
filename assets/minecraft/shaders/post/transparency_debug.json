@@ -1,7 +1,7 @@
 {
     "targets": [
-        { "name": "controller", "width": 2, "height": 4 },
-        { "name": "controllerSwap", "width": 2, "height": 4 },
+        { "name": "controller", "width": 2, "height": 5 },
+        { "name": "controllerSwap", "width": 2, "height": 5 },
         "water",
         "translucent",
         "itemEntity",
