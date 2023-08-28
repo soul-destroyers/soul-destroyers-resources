@@ -53,7 +53,8 @@ void main() {
     vec2 middle = vec2(0.5, 0.5);
     float distanceToMiddle = abs(distance(uv, middle)) - 0.2;
 
-    // // Channel #1
+    // Channel #1
+    // Stunt effect 
     vec4 control_color = texelFetch(ControlSampler, ivec2(0, 1), 0);
     int effectTimer = int(control_color.b * 255.);
     if (effectTimer > 0 && effectTimer < 255) {
@@ -71,6 +72,7 @@ void main() {
     }
 
     // Channel #2
+    // bleeding effect
     control_color = texelFetch(ControlSampler, ivec2(0, 2), 0);
     switch(int(control_color.b * 255.)) {
         case 3:
@@ -86,6 +88,7 @@ void main() {
     }
 
     // Channel #3
+    // Soul pickup effect
     control_color = texelFetch(ControlSampler, ivec2(0, 3), 0);
     int effectValue = int(control_color.b * 255.);
 
