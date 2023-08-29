@@ -107,19 +107,19 @@ void main() {
     // Cursed forest nausea
     control_color = texelFetch(ControlSampler, ivec2(0, 4), 0);
     int nauseaValue = int(control_color.b * 255.);
-    if (nauseaValue == 255) {
+    if (nauseaValue > 0) {
         // fragColor = vec4(0.0, 0.0, 0.0, 1.0);
         fragColor = fragColor + vec4(0.01, -0.1, 0.05, 1.0);
     }
     if (nauseaValue > 0 && nauseaValue < 255) {
-        float range = 0.01;
+        float range = sin(control_color.b * 3.14) * 0.02;
         vec4 illusion = min(
             vec4(0.7, 0.7, 0.7, 1.0),
             (texture(DiffuseSampler, texCoord)
             + texture(DiffuseSampler, texCoord + vec2(-range, -range))
             + texture(DiffuseSampler, texCoord + vec2(+range, -range))
             + texture(DiffuseSampler, texCoord + vec2(-range, +range))
-            + texture(DiffuseSampler, texCoord + vec2(range, range))) * 0.6
+            + texture(DiffuseSampler, texCoord + vec2(range, range))) * 0.2 + vec4(0.01, -0.1, 0.05, 1.0)
         );
         fragColor = illusion;
     }
