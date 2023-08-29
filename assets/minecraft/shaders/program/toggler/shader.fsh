@@ -109,7 +109,7 @@ void main() {
     int nauseaValue = int(control_color.b * 255.);
     if (nauseaValue == 255) {
         // fragColor = vec4(0.0, 0.0, 0.0, 1.0);
-        fragColor = fragColor + vec4(0.08, -0.24, 0.2, 1.0);
+        fragColor = fragColor + vec4(0.01, -0.1, 0.05, 1.0);
     }
     if (nauseaValue > 0 && nauseaValue < 255) {
         float range = 0.01;
