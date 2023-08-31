@@ -179,6 +179,38 @@
                 "assets\\animated_java\\textures\\item\\lava_spider\\lava_spider_damaged.png",
                 "assets\\minecraft\\models\\item\\animated_java_empty.json"
             ]
+        },
+        "f1c251e7-0339-bde4-7261-8bf1ab79350d": {
+            "project_name": "forest_guardian",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\forest_guardian\\bone7.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\bone8.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\mushroom8.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\bone9.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\bone10.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\mushroom2.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\mushroom.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\mushroom3.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\mushroom4.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\mushroom5.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\mushroom6.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\body.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\bone.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\bone2.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\bone4.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\bone5.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\bone12.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\bone11.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\hornright.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\bone14.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\bone13.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\hornleft.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\mushroom7.json",
+                "assets\\animated_java\\models\\item\\forest_guardian\\head.json",
+                "assets\\animated_java\\textures\\item\\forest_guardian\\texture.png",
+                "assets\\animated_java\\textures\\item\\forest_guardian\\mushroom.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
         }
     }
 }

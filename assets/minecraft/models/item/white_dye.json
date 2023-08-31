@@ -699,6 +699,150 @@
 				"custom_model_data": 116
 			},
 			"model": "animated_java:item/lava_spider/damage/leg8"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 117
+			},
+			"model": "animated_java:item/forest_guardian/bone7"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 118
+			},
+			"model": "animated_java:item/forest_guardian/bone8"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 119
+			},
+			"model": "animated_java:item/forest_guardian/mushroom8"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 120
+			},
+			"model": "animated_java:item/forest_guardian/bone9"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 121
+			},
+			"model": "animated_java:item/forest_guardian/bone10"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 122
+			},
+			"model": "animated_java:item/forest_guardian/mushroom2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 123
+			},
+			"model": "animated_java:item/forest_guardian/mushroom"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 124
+			},
+			"model": "animated_java:item/forest_guardian/mushroom3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 125
+			},
+			"model": "animated_java:item/forest_guardian/mushroom4"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 126
+			},
+			"model": "animated_java:item/forest_guardian/mushroom5"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 127
+			},
+			"model": "animated_java:item/forest_guardian/mushroom6"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 128
+			},
+			"model": "animated_java:item/forest_guardian/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 129
+			},
+			"model": "animated_java:item/forest_guardian/bone"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 130
+			},
+			"model": "animated_java:item/forest_guardian/bone2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 131
+			},
+			"model": "animated_java:item/forest_guardian/bone4"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 132
+			},
+			"model": "animated_java:item/forest_guardian/bone5"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 133
+			},
+			"model": "animated_java:item/forest_guardian/bone12"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 134
+			},
+			"model": "animated_java:item/forest_guardian/bone11"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 135
+			},
+			"model": "animated_java:item/forest_guardian/hornright"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 136
+			},
+			"model": "animated_java:item/forest_guardian/bone14"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 137
+			},
+			"model": "animated_java:item/forest_guardian/bone13"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 138
+			},
+			"model": "animated_java:item/forest_guardian/hornleft"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 139
+			},
+			"model": "animated_java:item/forest_guardian/mushroom7"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 140
+			},
+			"model": "animated_java:item/forest_guardian/head"
 		}
 	],
 	"animated_java": {
@@ -852,6 +996,34 @@
 					114,
 					115,
 					116
+				]
+			},
+			"forest_guardian": {
+				"used_ids": [
+					117,
+					118,
+					119,
+					120,
+					121,
+					122,
+					123,
+					124,
+					125,
+					126,
+					127,
+					128,
+					129,
+					130,
+					131,
+					132,
+					133,
+					134,
+					135,
+					136,
+					137,
+					138,
+					139,
+					140
 				]
 			}
 		}

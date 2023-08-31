@@ -1,0 +1,93 @@
+{
+	"textures": {
+		"0": "animated_java:item/forest_guardian/texture"
+	},
+	"elements": [
+		{
+			"from": [
+				6.5,
+				-8,
+				6.5
+			],
+			"to": [
+				9.5,
+				8,
+				9.5
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8.3,
+					5.5,
+					8.25
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						2.625,
+						5,
+						2.25,
+						7
+					],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [
+						2.25,
+						5,
+						1.875,
+						7
+					],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [
+						1.875,
+						5,
+						1.5,
+						7
+					],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [
+						3,
+						5,
+						2.625,
+						7
+					],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [
+						0.875,
+						7.5,
+						0.5,
+						7.875
+					],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [
+						1.25,
+						7.875,
+						0.875,
+						7.5
+					],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [
+				0,
+				180,
+				0
+			]
+		}
+	}
+}
