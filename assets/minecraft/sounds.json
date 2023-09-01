@@ -18,5 +18,10 @@
         "sounds": [
             "cave/_ambient1"
         ]
+    },
+    "music.cursed_forest": {
+        "sounds": [
+            "music/cursed_forest_theme"
+        ]
     }
 }
