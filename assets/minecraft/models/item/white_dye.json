@@ -843,6 +843,192 @@
 				"custom_model_data": 140
 			},
 			"model": "animated_java:item/forest_guardian/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 141
+			},
+			"model": "animated_java:item/crab/bone17"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 142
+			},
+			"model": "animated_java:item/crab/bone18"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 143
+			},
+			"model": "animated_java:item/crab/bone15"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 144
+			},
+			"model": "animated_java:item/crab/bone16"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 145
+			},
+			"model": "animated_java:item/crab/bone13"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 146
+			},
+			"model": "animated_java:item/crab/bone14"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 147
+			},
+			"model": "animated_java:item/crab/bone11"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 148
+			},
+			"model": "animated_java:item/crab/bone12"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 149
+			},
+			"model": "animated_java:item/crab/bone19"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 150
+			},
+			"model": "animated_java:item/crab/bone20"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 151
+			},
+			"model": "animated_java:item/crab/bone21"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 152
+			},
+			"model": "animated_java:item/crab/bone22"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 153
+			},
+			"model": "animated_java:item/crab/bone23"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 154
+			},
+			"model": "animated_java:item/crab/bone24"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 155
+			},
+			"model": "animated_java:item/crab/bone25"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 156
+			},
+			"model": "animated_java:item/crab/bone26"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 157
+			},
+			"model": "animated_java:item/crab/right_eye"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 158
+			},
+			"model": "animated_java:item/crab/left_eye"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 159
+			},
+			"model": "animated_java:item/crab/bone7"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 160
+			},
+			"model": "animated_java:item/crab/bone8"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 161
+			},
+			"model": "animated_java:item/crab/bone6"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 162
+			},
+			"model": "animated_java:item/crab/bone9"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 163
+			},
+			"model": "animated_java:item/crab/bone10"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 164
+			},
+			"model": "animated_java:item/crab/bone3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 165
+			},
+			"model": "animated_java:item/crab/bone2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 166
+			},
+			"model": "animated_java:item/crab/bone"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 167
+			},
+			"model": "animated_java:item/crab/bone4"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 168
+			},
+			"model": "animated_java:item/crab/bone5"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 169
+			},
+			"model": "animated_java:item/crab/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 170
+			},
+			"model": "animated_java:item/crab/bone27"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 171
+			},
+			"model": "animated_java:item/crab/bone28"
 		}
 	],
 	"animated_java": {
@@ -1024,6 +1210,41 @@
 					138,
 					139,
 					140
+				]
+			},
+			"crab": {
+				"used_ids": [
+					141,
+					142,
+					143,
+					144,
+					145,
+					146,
+					147,
+					148,
+					149,
+					150,
+					151,
+					152,
+					153,
+					154,
+					155,
+					156,
+					157,
+					158,
+					159,
+					160,
+					161,
+					162,
+					163,
+					164,
+					165,
+					166,
+					167,
+					168,
+					169,
+					170,
+					171
 				]
 			}
 		}

@@ -1,0 +1,93 @@
+{
+	"textures": {
+		"1": "animated_java:item/crab/texture"
+	},
+	"elements": [
+		{
+			"from": [
+				13,
+				10,
+				8
+			],
+			"to": [
+				14,
+				14,
+				9
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "z",
+				"origin": [
+					13,
+					14,
+					9
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						3.25,
+						4,
+						3.5,
+						5
+					],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [
+						3,
+						4,
+						3.25,
+						5
+					],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [
+						3.75,
+						4,
+						4,
+						5
+					],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [
+						3.5,
+						4,
+						3.75,
+						5
+					],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [
+						3.5,
+						4,
+						3.25,
+						3.75
+					],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [
+						3.75,
+						3.75,
+						3.5,
+						4
+					],
+					"texture": "#1"
+				}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [
+				0,
+				180,
+				0
+			]
+		}
+	}
+}
