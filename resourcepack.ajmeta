@@ -287,6 +287,32 @@
                 "assets\\animated_java\\textures\\item\\crab\\texture.png",
                 "assets\\minecraft\\models\\item\\animated_java_empty.json"
             ]
+        },
+        "2b33b818-1f41-ba0f-cc54-47c38fd9b166": {
+            "project_name": "demo_title",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\demo_title\\s.json",
+                "assets\\animated_java\\models\\item\\demo_title\\o.json",
+                "assets\\animated_java\\models\\item\\demo_title\\u.json",
+                "assets\\animated_java\\models\\item\\demo_title\\l.json",
+                "assets\\animated_java\\models\\item\\demo_title\\d.json",
+                "assets\\animated_java\\models\\item\\demo_title\\e.json",
+                "assets\\animated_java\\models\\item\\demo_title\\s3.json",
+                "assets\\animated_java\\models\\item\\demo_title\\t.json",
+                "assets\\animated_java\\models\\item\\demo_title\\r.json",
+                "assets\\animated_java\\models\\item\\demo_title\\o3.json",
+                "assets\\animated_java\\models\\item\\demo_title\\y.json",
+                "assets\\animated_java\\models\\item\\demo_title\\e3.json",
+                "assets\\animated_java\\models\\item\\demo_title\\r2.json",
+                "assets\\animated_java\\models\\item\\demo_title\\s2.json",
+                "assets\\animated_java\\models\\item\\demo_title\\d2.json",
+                "assets\\animated_java\\models\\item\\demo_title\\e2.json",
+                "assets\\animated_java\\models\\item\\demo_title\\m.json",
+                "assets\\animated_java\\models\\item\\demo_title\\o2.json",
+                "assets\\animated_java\\models\\item\\demo_title\\i2.json",
+                "assets\\animated_java\\textures\\item\\demo_title\\soul_destroyers.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
         }
     }
 }

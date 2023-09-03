@@ -1773,6 +1773,120 @@
 				"custom_model_data": 295
 			},
 			"model": "animated_java:item/small_crab/bone28"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 296
+			},
+			"model": "animated_java:item/demo_title/s"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 297
+			},
+			"model": "animated_java:item/demo_title/o"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 298
+			},
+			"model": "animated_java:item/demo_title/u"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 299
+			},
+			"model": "animated_java:item/demo_title/l"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 300
+			},
+			"model": "animated_java:item/demo_title/d"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 301
+			},
+			"model": "animated_java:item/demo_title/e"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 302
+			},
+			"model": "animated_java:item/demo_title/s3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 303
+			},
+			"model": "animated_java:item/demo_title/t"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 304
+			},
+			"model": "animated_java:item/demo_title/r"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 305
+			},
+			"model": "animated_java:item/demo_title/o3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 306
+			},
+			"model": "animated_java:item/demo_title/y"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 307
+			},
+			"model": "animated_java:item/demo_title/e3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 308
+			},
+			"model": "animated_java:item/demo_title/r2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 309
+			},
+			"model": "animated_java:item/demo_title/s2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 310
+			},
+			"model": "animated_java:item/demo_title/d2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 311
+			},
+			"model": "animated_java:item/demo_title/e2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 312
+			},
+			"model": "animated_java:item/demo_title/m"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 313
+			},
+			"model": "animated_java:item/demo_title/o2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 314
+			},
+			"model": "animated_java:item/demo_title/i2"
 		}
 	],
 	"animated_java": {
@@ -2129,6 +2243,29 @@
 					293,
 					294,
 					295
+				]
+			},
+			"demo_title": {
+				"used_ids": [
+					296,
+					297,
+					298,
+					299,
+					300,
+					301,
+					302,
+					303,
+					304,
+					305,
+					306,
+					307,
+					308,
+					309,
+					310,
+					311,
+					312,
+					313,
+					314
 				]
 			}
 		}
