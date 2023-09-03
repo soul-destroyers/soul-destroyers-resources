@@ -1,26 +1,26 @@
 {
 	"textures": {
-		"1": "animated_java:item/crab/texture"
+		"1": "animated_java:item/large_crab/texture"
 	},
 	"elements": [
 		{
 			"from": [
-				13,
-				10,
+				23,
+				14,
 				8
 			],
 			"to": [
-				14,
-				14,
-				9
+				26,
+				26,
+				11
 			],
 			"rotation": {
 				"angle": 0,
 				"axis": "y",
 				"origin": [
-					13,
-					14,
-					9
+					23,
+					26,
+					11
 				]
 			},
 			"faces": {

@@ -1029,6 +1029,750 @@
 				"custom_model_data": 171
 			},
 			"model": "animated_java:item/crab/bone28"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 172
+			},
+			"model": "animated_java:item/large_crab/bone17"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 173
+			},
+			"model": "animated_java:item/large_crab/bone18"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 174
+			},
+			"model": "animated_java:item/large_crab/bone15"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 175
+			},
+			"model": "animated_java:item/large_crab/bone16"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 176
+			},
+			"model": "animated_java:item/large_crab/bone13"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 177
+			},
+			"model": "animated_java:item/large_crab/bone14"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 178
+			},
+			"model": "animated_java:item/large_crab/bone11"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 179
+			},
+			"model": "animated_java:item/large_crab/bone12"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 180
+			},
+			"model": "animated_java:item/large_crab/bone19"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 181
+			},
+			"model": "animated_java:item/large_crab/bone20"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 182
+			},
+			"model": "animated_java:item/large_crab/bone21"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 183
+			},
+			"model": "animated_java:item/large_crab/bone22"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 184
+			},
+			"model": "animated_java:item/large_crab/bone23"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 185
+			},
+			"model": "animated_java:item/large_crab/bone24"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 186
+			},
+			"model": "animated_java:item/large_crab/bone25"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 187
+			},
+			"model": "animated_java:item/large_crab/bone26"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 188
+			},
+			"model": "animated_java:item/large_crab/right_eye"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 189
+			},
+			"model": "animated_java:item/large_crab/left_eye"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 190
+			},
+			"model": "animated_java:item/large_crab/bone7"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 191
+			},
+			"model": "animated_java:item/large_crab/bone8"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 192
+			},
+			"model": "animated_java:item/large_crab/bone6"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 193
+			},
+			"model": "animated_java:item/large_crab/bone9"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 194
+			},
+			"model": "animated_java:item/large_crab/bone10"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 195
+			},
+			"model": "animated_java:item/large_crab/bone3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 196
+			},
+			"model": "animated_java:item/large_crab/bone2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 197
+			},
+			"model": "animated_java:item/large_crab/bone"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 198
+			},
+			"model": "animated_java:item/large_crab/bone4"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 199
+			},
+			"model": "animated_java:item/large_crab/bone5"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 200
+			},
+			"model": "animated_java:item/large_crab/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 201
+			},
+			"model": "animated_java:item/large_crab/bone27"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 202
+			},
+			"model": "animated_java:item/large_crab/bone28"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 203
+			},
+			"model": "animated_java:item/so_large_crab/bone17"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 204
+			},
+			"model": "animated_java:item/so_large_crab/bone18"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 205
+			},
+			"model": "animated_java:item/so_large_crab/bone15"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 206
+			},
+			"model": "animated_java:item/so_large_crab/bone16"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 207
+			},
+			"model": "animated_java:item/so_large_crab/bone13"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 208
+			},
+			"model": "animated_java:item/so_large_crab/bone14"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 209
+			},
+			"model": "animated_java:item/so_large_crab/bone11"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 210
+			},
+			"model": "animated_java:item/so_large_crab/bone12"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 211
+			},
+			"model": "animated_java:item/so_large_crab/bone19"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 212
+			},
+			"model": "animated_java:item/so_large_crab/bone20"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 213
+			},
+			"model": "animated_java:item/so_large_crab/bone21"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 214
+			},
+			"model": "animated_java:item/so_large_crab/bone22"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 215
+			},
+			"model": "animated_java:item/so_large_crab/bone23"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 216
+			},
+			"model": "animated_java:item/so_large_crab/bone24"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 217
+			},
+			"model": "animated_java:item/so_large_crab/bone25"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 218
+			},
+			"model": "animated_java:item/so_large_crab/bone26"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 219
+			},
+			"model": "animated_java:item/so_large_crab/right_eye"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 220
+			},
+			"model": "animated_java:item/so_large_crab/left_eye"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 221
+			},
+			"model": "animated_java:item/so_large_crab/bone7"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 222
+			},
+			"model": "animated_java:item/so_large_crab/bone8"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 223
+			},
+			"model": "animated_java:item/so_large_crab/bone6"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 224
+			},
+			"model": "animated_java:item/so_large_crab/bone9"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 225
+			},
+			"model": "animated_java:item/so_large_crab/bone10"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 226
+			},
+			"model": "animated_java:item/so_large_crab/bone3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 227
+			},
+			"model": "animated_java:item/so_large_crab/bone2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 228
+			},
+			"model": "animated_java:item/so_large_crab/bone"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 229
+			},
+			"model": "animated_java:item/so_large_crab/bone4"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 230
+			},
+			"model": "animated_java:item/so_large_crab/bone5"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 231
+			},
+			"model": "animated_java:item/so_large_crab/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 232
+			},
+			"model": "animated_java:item/so_large_crab/bone27"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 233
+			},
+			"model": "animated_java:item/so_large_crab/bone28"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 234
+			},
+			"model": "animated_java:item/very_large_crab/bone17"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 235
+			},
+			"model": "animated_java:item/very_large_crab/bone18"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 236
+			},
+			"model": "animated_java:item/very_large_crab/bone15"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 237
+			},
+			"model": "animated_java:item/very_large_crab/bone16"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 238
+			},
+			"model": "animated_java:item/very_large_crab/bone13"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 239
+			},
+			"model": "animated_java:item/very_large_crab/bone14"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 240
+			},
+			"model": "animated_java:item/very_large_crab/bone11"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 241
+			},
+			"model": "animated_java:item/very_large_crab/bone12"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 242
+			},
+			"model": "animated_java:item/very_large_crab/bone19"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 243
+			},
+			"model": "animated_java:item/very_large_crab/bone20"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 244
+			},
+			"model": "animated_java:item/very_large_crab/bone21"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 245
+			},
+			"model": "animated_java:item/very_large_crab/bone22"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 246
+			},
+			"model": "animated_java:item/very_large_crab/bone23"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 247
+			},
+			"model": "animated_java:item/very_large_crab/bone24"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 248
+			},
+			"model": "animated_java:item/very_large_crab/bone25"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 249
+			},
+			"model": "animated_java:item/very_large_crab/bone26"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 250
+			},
+			"model": "animated_java:item/very_large_crab/right_eye"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 251
+			},
+			"model": "animated_java:item/very_large_crab/left_eye"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 252
+			},
+			"model": "animated_java:item/very_large_crab/bone7"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 253
+			},
+			"model": "animated_java:item/very_large_crab/bone8"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 254
+			},
+			"model": "animated_java:item/very_large_crab/bone6"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 255
+			},
+			"model": "animated_java:item/very_large_crab/bone9"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 256
+			},
+			"model": "animated_java:item/very_large_crab/bone10"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 257
+			},
+			"model": "animated_java:item/very_large_crab/bone3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 258
+			},
+			"model": "animated_java:item/very_large_crab/bone2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 259
+			},
+			"model": "animated_java:item/very_large_crab/bone"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 260
+			},
+			"model": "animated_java:item/very_large_crab/bone4"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 261
+			},
+			"model": "animated_java:item/very_large_crab/bone5"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 262
+			},
+			"model": "animated_java:item/very_large_crab/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 263
+			},
+			"model": "animated_java:item/very_large_crab/bone27"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 264
+			},
+			"model": "animated_java:item/very_large_crab/bone28"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 265
+			},
+			"model": "animated_java:item/small_crab/bone17"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 266
+			},
+			"model": "animated_java:item/small_crab/bone18"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 267
+			},
+			"model": "animated_java:item/small_crab/bone15"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 268
+			},
+			"model": "animated_java:item/small_crab/bone16"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 269
+			},
+			"model": "animated_java:item/small_crab/bone13"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 270
+			},
+			"model": "animated_java:item/small_crab/bone14"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 271
+			},
+			"model": "animated_java:item/small_crab/bone11"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 272
+			},
+			"model": "animated_java:item/small_crab/bone12"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 273
+			},
+			"model": "animated_java:item/small_crab/bone19"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 274
+			},
+			"model": "animated_java:item/small_crab/bone20"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 275
+			},
+			"model": "animated_java:item/small_crab/bone21"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 276
+			},
+			"model": "animated_java:item/small_crab/bone22"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 277
+			},
+			"model": "animated_java:item/small_crab/bone23"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 278
+			},
+			"model": "animated_java:item/small_crab/bone24"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 279
+			},
+			"model": "animated_java:item/small_crab/bone25"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 280
+			},
+			"model": "animated_java:item/small_crab/bone26"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 281
+			},
+			"model": "animated_java:item/small_crab/right_eye"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 282
+			},
+			"model": "animated_java:item/small_crab/left_eye"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 283
+			},
+			"model": "animated_java:item/small_crab/bone7"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 284
+			},
+			"model": "animated_java:item/small_crab/bone8"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 285
+			},
+			"model": "animated_java:item/small_crab/bone6"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 286
+			},
+			"model": "animated_java:item/small_crab/bone9"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 287
+			},
+			"model": "animated_java:item/small_crab/bone10"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 288
+			},
+			"model": "animated_java:item/small_crab/bone3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 289
+			},
+			"model": "animated_java:item/small_crab/bone2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 290
+			},
+			"model": "animated_java:item/small_crab/bone"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 291
+			},
+			"model": "animated_java:item/small_crab/bone4"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 292
+			},
+			"model": "animated_java:item/small_crab/bone5"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 293
+			},
+			"model": "animated_java:item/small_crab/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 294
+			},
+			"model": "animated_java:item/small_crab/bone27"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 295
+			},
+			"model": "animated_java:item/small_crab/bone28"
 		}
 	],
 	"animated_java": {
@@ -1245,6 +1989,146 @@
 					169,
 					170,
 					171
+				]
+			},
+			"large_crab": {
+				"used_ids": [
+					172,
+					173,
+					174,
+					175,
+					176,
+					177,
+					178,
+					179,
+					180,
+					181,
+					182,
+					183,
+					184,
+					185,
+					186,
+					187,
+					188,
+					189,
+					190,
+					191,
+					192,
+					193,
+					194,
+					195,
+					196,
+					197,
+					198,
+					199,
+					200,
+					201,
+					202
+				]
+			},
+			"very_large_crab": {
+				"used_ids": [
+					234,
+					235,
+					236,
+					237,
+					238,
+					239,
+					240,
+					241,
+					242,
+					243,
+					244,
+					245,
+					246,
+					247,
+					248,
+					249,
+					250,
+					251,
+					252,
+					253,
+					254,
+					255,
+					256,
+					257,
+					258,
+					259,
+					260,
+					261,
+					262,
+					263,
+					264
+				]
+			},
+			"so_large_crab": {
+				"used_ids": [
+					203,
+					204,
+					205,
+					206,
+					207,
+					208,
+					209,
+					210,
+					211,
+					212,
+					213,
+					214,
+					215,
+					216,
+					217,
+					218,
+					219,
+					220,
+					221,
+					222,
+					223,
+					224,
+					225,
+					226,
+					227,
+					228,
+					229,
+					230,
+					231,
+					232,
+					233
+				]
+			},
+			"small_crab": {
+				"used_ids": [
+					265,
+					266,
+					267,
+					268,
+					269,
+					270,
+					271,
+					272,
+					273,
+					274,
+					275,
+					276,
+					277,
+					278,
+					279,
+					280,
+					281,
+					282,
+					283,
+					284,
+					285,
+					286,
+					287,
+					288,
+					289,
+					290,
+					291,
+					292,
+					293,
+					294,
+					295
 				]
 			}
 		}
