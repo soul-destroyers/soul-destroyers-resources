@@ -313,6 +313,25 @@
                 "assets\\animated_java\\textures\\item\\demo_title\\soul_destroyers.png",
                 "assets\\minecraft\\models\\item\\animated_java_empty.json"
             ]
+        },
+        "2d984add-eb17-9024-58c4-73b2956e8d5f": {
+            "project_name": "bandit",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\bandit\\head.json",
+                "assets\\animated_java\\models\\item\\bandit\\headwear.json",
+                "assets\\animated_java\\models\\item\\bandit\\body.json",
+                "assets\\animated_java\\models\\item\\bandit\\jacket.json",
+                "assets\\animated_java\\models\\item\\bandit\\left_arm.json",
+                "assets\\animated_java\\models\\item\\bandit\\left_sleve.json",
+                "assets\\animated_java\\models\\item\\bandit\\right_arm.json",
+                "assets\\animated_java\\models\\item\\bandit\\right_sleve.json",
+                "assets\\animated_java\\models\\item\\bandit\\left_leg.json",
+                "assets\\animated_java\\models\\item\\bandit\\left_pants.json",
+                "assets\\animated_java\\models\\item\\bandit\\right_leg.json",
+                "assets\\animated_java\\models\\item\\bandit\\right_pants.json",
+                "assets\\animated_java\\textures\\item\\bandit\\bandit.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
         }
     }
 }

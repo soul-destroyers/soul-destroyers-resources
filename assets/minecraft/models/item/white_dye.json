@@ -1887,6 +1887,78 @@
 				"custom_model_data": 314
 			},
 			"model": "animated_java:item/demo_title/i2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 315
+			},
+			"model": "animated_java:item/bandit/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 316
+			},
+			"model": "animated_java:item/bandit/headwear"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 317
+			},
+			"model": "animated_java:item/bandit/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 318
+			},
+			"model": "animated_java:item/bandit/jacket"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 319
+			},
+			"model": "animated_java:item/bandit/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 320
+			},
+			"model": "animated_java:item/bandit/left_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 321
+			},
+			"model": "animated_java:item/bandit/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 322
+			},
+			"model": "animated_java:item/bandit/right_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 323
+			},
+			"model": "animated_java:item/bandit/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 324
+			},
+			"model": "animated_java:item/bandit/left_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 325
+			},
+			"model": "animated_java:item/bandit/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 326
+			},
+			"model": "animated_java:item/bandit/right_pants"
 		}
 	],
 	"animated_java": {
@@ -2266,6 +2338,22 @@
 					312,
 					313,
 					314
+				]
+			},
+			"bandit": {
+				"used_ids": [
+					315,
+					316,
+					317,
+					318,
+					319,
+					320,
+					321,
+					322,
+					323,
+					324,
+					325,
+					326
 				]
 			}
 		}
