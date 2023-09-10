@@ -332,6 +332,25 @@
                 "assets\\animated_java\\textures\\item\\bandit\\bandit.png",
                 "assets\\minecraft\\models\\item\\animated_java_empty.json"
             ]
+        },
+        "251519ac-d72c-7fc1-5522-1055699bf241": {
+            "project_name": "recruiter",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\recruiter\\head.json",
+                "assets\\animated_java\\models\\item\\recruiter\\headwear.json",
+                "assets\\animated_java\\models\\item\\recruiter\\body.json",
+                "assets\\animated_java\\models\\item\\recruiter\\jacket.json",
+                "assets\\animated_java\\models\\item\\recruiter\\left_arm.json",
+                "assets\\animated_java\\models\\item\\recruiter\\left_sleve.json",
+                "assets\\animated_java\\models\\item\\recruiter\\right_arm.json",
+                "assets\\animated_java\\models\\item\\recruiter\\right_sleve.json",
+                "assets\\animated_java\\models\\item\\recruiter\\left_leg.json",
+                "assets\\animated_java\\models\\item\\recruiter\\left_pants.json",
+                "assets\\animated_java\\models\\item\\recruiter\\right_leg.json",
+                "assets\\animated_java\\models\\item\\recruiter\\right_pants.json",
+                "assets\\animated_java\\textures\\item\\recruiter\\medieval_bandit.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
         }
     }
 }

@@ -1959,6 +1959,78 @@
 				"custom_model_data": 326
 			},
 			"model": "animated_java:item/bandit/right_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 327
+			},
+			"model": "animated_java:item/recruiter/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 328
+			},
+			"model": "animated_java:item/recruiter/headwear"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 329
+			},
+			"model": "animated_java:item/recruiter/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 330
+			},
+			"model": "animated_java:item/recruiter/jacket"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 331
+			},
+			"model": "animated_java:item/recruiter/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 332
+			},
+			"model": "animated_java:item/recruiter/left_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 333
+			},
+			"model": "animated_java:item/recruiter/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 334
+			},
+			"model": "animated_java:item/recruiter/right_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 335
+			},
+			"model": "animated_java:item/recruiter/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 336
+			},
+			"model": "animated_java:item/recruiter/left_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 337
+			},
+			"model": "animated_java:item/recruiter/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 338
+			},
+			"model": "animated_java:item/recruiter/right_pants"
 		}
 	],
 	"animated_java": {
@@ -2354,6 +2426,22 @@
 					324,
 					325,
 					326
+				]
+			},
+			"recruiter": {
+				"used_ids": [
+					327,
+					328,
+					329,
+					330,
+					331,
+					332,
+					333,
+					334,
+					335,
+					336,
+					337,
+					338
 				]
 			}
 		}
