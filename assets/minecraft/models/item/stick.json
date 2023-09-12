@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/stick"
+  },
+   "overrides": [
+    {"predicate": {"custom_model_data": 2137001}, "model": "soul_destroyers:item/basic_sword"}
+  ]
+}
