@@ -351,6 +351,63 @@
                 "assets\\animated_java\\textures\\item\\recruiter\\medieval_bandit.png",
                 "assets\\minecraft\\models\\item\\animated_java_empty.json"
             ]
+        },
+        "92f491ea-ed83-ee58-c52a-6fad8872040c": {
+            "project_name": "captain",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\captain\\head.json",
+                "assets\\animated_java\\models\\item\\captain\\headwear.json",
+                "assets\\animated_java\\models\\item\\captain\\body.json",
+                "assets\\animated_java\\models\\item\\captain\\jacket.json",
+                "assets\\animated_java\\models\\item\\captain\\left_arm.json",
+                "assets\\animated_java\\models\\item\\captain\\left_sleve.json",
+                "assets\\animated_java\\models\\item\\captain\\right_arm.json",
+                "assets\\animated_java\\models\\item\\captain\\right_sleve.json",
+                "assets\\animated_java\\models\\item\\captain\\left_leg.json",
+                "assets\\animated_java\\models\\item\\captain\\left_pants.json",
+                "assets\\animated_java\\models\\item\\captain\\right_leg.json",
+                "assets\\animated_java\\models\\item\\captain\\right_pants.json",
+                "assets\\animated_java\\textures\\item\\captain\\captain2.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
+        },
+        "2a984add-eb17-9024-58c4-73b2956e8d5f": {
+            "project_name": "miner",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\miner\\head.json",
+                "assets\\animated_java\\models\\item\\miner\\headwear.json",
+                "assets\\animated_java\\models\\item\\miner\\body.json",
+                "assets\\animated_java\\models\\item\\miner\\jacket.json",
+                "assets\\animated_java\\models\\item\\miner\\left_arm.json",
+                "assets\\animated_java\\models\\item\\miner\\left_sleve.json",
+                "assets\\animated_java\\models\\item\\miner\\right_arm.json",
+                "assets\\animated_java\\models\\item\\miner\\right_sleve.json",
+                "assets\\animated_java\\models\\item\\miner\\left_leg.json",
+                "assets\\animated_java\\models\\item\\miner\\left_pants.json",
+                "assets\\animated_java\\models\\item\\miner\\right_leg.json",
+                "assets\\animated_java\\models\\item\\miner\\right_pants.json",
+                "assets\\animated_java\\textures\\item\\miner\\miner2.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
+        },
+        "2d976add-eb17-9024-58c4-73b2956e8d5f": {
+            "project_name": "captain",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\captain\\head.json",
+                "assets\\animated_java\\models\\item\\captain\\headwear.json",
+                "assets\\animated_java\\models\\item\\captain\\body.json",
+                "assets\\animated_java\\models\\item\\captain\\jacket.json",
+                "assets\\animated_java\\models\\item\\captain\\left_arm.json",
+                "assets\\animated_java\\models\\item\\captain\\left_sleve.json",
+                "assets\\animated_java\\models\\item\\captain\\right_arm.json",
+                "assets\\animated_java\\models\\item\\captain\\right_sleve.json",
+                "assets\\animated_java\\models\\item\\captain\\left_leg.json",
+                "assets\\animated_java\\models\\item\\captain\\left_pants.json",
+                "assets\\animated_java\\models\\item\\captain\\right_leg.json",
+                "assets\\animated_java\\models\\item\\captain\\right_pants.json",
+                "assets\\animated_java\\textures\\item\\captain\\captain2.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
         }
     }
 }
