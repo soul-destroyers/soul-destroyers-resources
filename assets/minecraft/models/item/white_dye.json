@@ -2175,6 +2175,84 @@
 				"custom_model_data": 362
 			},
 			"model": "animated_java:item/miner/right_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 363
+			},
+			"model": "animated_java:item/bandit_with_a_knife/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 364
+			},
+			"model": "animated_java:item/bandit_with_a_knife/headwear"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 365
+			},
+			"model": "animated_java:item/bandit_with_a_knife/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 366
+			},
+			"model": "animated_java:item/bandit_with_a_knife/jacket"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 367
+			},
+			"model": "animated_java:item/bandit_with_a_knife/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 368
+			},
+			"model": "animated_java:item/bandit_with_a_knife/left_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 369
+			},
+			"model": "animated_java:item/bandit_with_a_knife/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 370
+			},
+			"model": "animated_java:item/bandit_with_a_knife/right_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 371
+			},
+			"model": "animated_java:item/bandit_with_a_knife/dagger"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 372
+			},
+			"model": "animated_java:item/bandit_with_a_knife/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 373
+			},
+			"model": "animated_java:item/bandit_with_a_knife/left_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 374
+			},
+			"model": "animated_java:item/bandit_with_a_knife/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 375
+			},
+			"model": "animated_java:item/bandit_with_a_knife/right_pants"
 		}
 	],
 	"animated_java": {
@@ -2618,6 +2696,23 @@
 					360,
 					361,
 					362
+				]
+			},
+			"bandit_with_a_knife": {
+				"used_ids": [
+					363,
+					364,
+					365,
+					366,
+					367,
+					368,
+					369,
+					370,
+					371,
+					372,
+					373,
+					374,
+					375
 				]
 			}
 		}

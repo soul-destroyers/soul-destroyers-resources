@@ -408,6 +408,27 @@
                 "assets\\animated_java\\textures\\item\\captain\\captain2.png",
                 "assets\\minecraft\\models\\item\\animated_java_empty.json"
             ]
+        },
+        "2d984add-eb17-9024-19c4-73b2956e8d5f": {
+            "project_name": "bandit_with_a_knife",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\bandit_with_a_knife\\head.json",
+                "assets\\animated_java\\models\\item\\bandit_with_a_knife\\headwear.json",
+                "assets\\animated_java\\models\\item\\bandit_with_a_knife\\body.json",
+                "assets\\animated_java\\models\\item\\bandit_with_a_knife\\jacket.json",
+                "assets\\animated_java\\models\\item\\bandit_with_a_knife\\left_arm.json",
+                "assets\\animated_java\\models\\item\\bandit_with_a_knife\\left_sleve.json",
+                "assets\\animated_java\\models\\item\\bandit_with_a_knife\\right_arm.json",
+                "assets\\animated_java\\models\\item\\bandit_with_a_knife\\right_sleve.json",
+                "assets\\animated_java\\models\\item\\bandit_with_a_knife\\dagger.json",
+                "assets\\animated_java\\models\\item\\bandit_with_a_knife\\left_leg.json",
+                "assets\\animated_java\\models\\item\\bandit_with_a_knife\\left_pants.json",
+                "assets\\animated_java\\models\\item\\bandit_with_a_knife\\right_leg.json",
+                "assets\\animated_java\\models\\item\\bandit_with_a_knife\\right_pants.json",
+                "assets\\animated_java\\textures\\item\\bandit_with_a_knife\\bandit.png",
+                "assets\\animated_java\\textures\\item\\bandit_with_a_knife\\iron_sword.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
         }
     }
 }
