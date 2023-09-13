@@ -23,5 +23,10 @@
         "sounds": [
             "music/cursed_forest_theme"
         ]
+    },
+    "music.cliffhorn": {
+        "sounds": [
+            "music/cliffhorn_theme"
+        ]
     }
 }
