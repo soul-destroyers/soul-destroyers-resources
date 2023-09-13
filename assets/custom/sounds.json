@@ -1,0 +1,23 @@
+{
+  "cliffhorn_theme/intro": {
+    "sounds": [
+      "cliffhorn_theme/intro"
+    ],
+    "stream": true,
+    "preload": true
+  },
+  "cliffhorn_theme/loop": {
+    "sounds": [
+      "cliffhorn_theme/loop"
+    ],
+    "stream": true,
+    "preload": true
+  },
+  "cliffhorn_theme/end": {
+    "sounds": [
+      "cliffhorn_theme/end"
+    ],
+    "stream": true,
+    "preload": true
+  }
+}
