@@ -1,0 +1,6 @@
+{
+	"parent": "animated_java:item/the_creators/body",
+	"textures": {
+		"0": "animated_java:item/the_creators/technicman69"
+	}
+}

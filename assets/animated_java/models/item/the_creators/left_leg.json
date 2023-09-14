@@ -1,0 +1,84 @@
+{
+	"textures": {
+		"0": "animated_java:item/the_creators/kakti"
+	},
+	"elements": [
+		{
+			"from": [
+				6,
+				-4,
+				6
+			],
+			"to": [
+				10,
+				8,
+				10
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						5,
+						13,
+						6,
+						16
+					],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [
+						4,
+						13,
+						5,
+						16
+					],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [
+						7,
+						13,
+						8,
+						16
+					],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [
+						6,
+						13,
+						7,
+						16
+					],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [
+						6,
+						13,
+						5,
+						12
+					],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [
+						7,
+						12,
+						6,
+						13
+					],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [
+				0,
+				180,
+				0
+			]
+		}
+	}
+}

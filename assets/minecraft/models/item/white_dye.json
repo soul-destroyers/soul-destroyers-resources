@@ -2253,6 +2253,582 @@
 				"custom_model_data": 375
 			},
 			"model": "animated_java:item/bandit_with_a_knife/right_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 376
+			},
+			"model": "animated_java:item/the_creators/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 377
+			},
+			"model": "animated_java:item/the_creators/headwear"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 378
+			},
+			"model": "animated_java:item/the_creators/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 379
+			},
+			"model": "animated_java:item/the_creators/jacket"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 380
+			},
+			"model": "animated_java:item/the_creators/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 381
+			},
+			"model": "animated_java:item/the_creators/left_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 382
+			},
+			"model": "animated_java:item/the_creators/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 383
+			},
+			"model": "animated_java:item/the_creators/right_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 384
+			},
+			"model": "animated_java:item/the_creators/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 385
+			},
+			"model": "animated_java:item/the_creators/left_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 386
+			},
+			"model": "animated_java:item/the_creators/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 387
+			},
+			"model": "animated_java:item/the_creators/right_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 388
+			},
+			"model": "animated_java:item/the_creators/catandon/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 389
+			},
+			"model": "animated_java:item/the_creators/catandon/headwear"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 390
+			},
+			"model": "animated_java:item/the_creators/catandon/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 391
+			},
+			"model": "animated_java:item/the_creators/catandon/jacket"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 392
+			},
+			"model": "animated_java:item/the_creators/catandon/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 393
+			},
+			"model": "animated_java:item/the_creators/catandon/left_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 394
+			},
+			"model": "animated_java:item/the_creators/catandon/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 395
+			},
+			"model": "animated_java:item/the_creators/catandon/right_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 396
+			},
+			"model": "animated_java:item/the_creators/catandon/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 397
+			},
+			"model": "animated_java:item/the_creators/catandon/left_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 398
+			},
+			"model": "animated_java:item/the_creators/catandon/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 399
+			},
+			"model": "animated_java:item/the_creators/catandon/right_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400
+			},
+			"model": "animated_java:item/the_creators/ciamciam/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401
+			},
+			"model": "animated_java:item/the_creators/ciamciam/headwear"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 402
+			},
+			"model": "animated_java:item/the_creators/ciamciam/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 403
+			},
+			"model": "animated_java:item/the_creators/ciamciam/jacket"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 404
+			},
+			"model": "animated_java:item/the_creators/ciamciam/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 405
+			},
+			"model": "animated_java:item/the_creators/ciamciam/left_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 406
+			},
+			"model": "animated_java:item/the_creators/ciamciam/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 407
+			},
+			"model": "animated_java:item/the_creators/ciamciam/right_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 408
+			},
+			"model": "animated_java:item/the_creators/ciamciam/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 409
+			},
+			"model": "animated_java:item/the_creators/ciamciam/left_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 410
+			},
+			"model": "animated_java:item/the_creators/ciamciam/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 411
+			},
+			"model": "animated_java:item/the_creators/ciamciam/right_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 412
+			},
+			"model": "animated_java:item/the_creators/lukaszysz/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 413
+			},
+			"model": "animated_java:item/the_creators/lukaszysz/headwear"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 414
+			},
+			"model": "animated_java:item/the_creators/lukaszysz/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 415
+			},
+			"model": "animated_java:item/the_creators/lukaszysz/jacket"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 416
+			},
+			"model": "animated_java:item/the_creators/lukaszysz/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 417
+			},
+			"model": "animated_java:item/the_creators/lukaszysz/left_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 418
+			},
+			"model": "animated_java:item/the_creators/lukaszysz/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 419
+			},
+			"model": "animated_java:item/the_creators/lukaszysz/right_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 420
+			},
+			"model": "animated_java:item/the_creators/lukaszysz/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 421
+			},
+			"model": "animated_java:item/the_creators/lukaszysz/left_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 422
+			},
+			"model": "animated_java:item/the_creators/lukaszysz/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 423
+			},
+			"model": "animated_java:item/the_creators/lukaszysz/right_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 424
+			},
+			"model": "animated_java:item/the_creators/mikib/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 425
+			},
+			"model": "animated_java:item/the_creators/mikib/headwear"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 426
+			},
+			"model": "animated_java:item/the_creators/mikib/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 427
+			},
+			"model": "animated_java:item/the_creators/mikib/jacket"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 428
+			},
+			"model": "animated_java:item/the_creators/mikib/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 429
+			},
+			"model": "animated_java:item/the_creators/mikib/left_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 430
+			},
+			"model": "animated_java:item/the_creators/mikib/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 431
+			},
+			"model": "animated_java:item/the_creators/mikib/right_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 432
+			},
+			"model": "animated_java:item/the_creators/mikib/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 433
+			},
+			"model": "animated_java:item/the_creators/mikib/left_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 434
+			},
+			"model": "animated_java:item/the_creators/mikib/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 435
+			},
+			"model": "animated_java:item/the_creators/mikib/right_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 436
+			},
+			"model": "animated_java:item/the_creators/syriusz/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 437
+			},
+			"model": "animated_java:item/the_creators/syriusz/headwear"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 438
+			},
+			"model": "animated_java:item/the_creators/syriusz/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 439
+			},
+			"model": "animated_java:item/the_creators/syriusz/jacket"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 440
+			},
+			"model": "animated_java:item/the_creators/syriusz/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 441
+			},
+			"model": "animated_java:item/the_creators/syriusz/left_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 442
+			},
+			"model": "animated_java:item/the_creators/syriusz/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 443
+			},
+			"model": "animated_java:item/the_creators/syriusz/right_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 444
+			},
+			"model": "animated_java:item/the_creators/syriusz/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 445
+			},
+			"model": "animated_java:item/the_creators/syriusz/left_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 446
+			},
+			"model": "animated_java:item/the_creators/syriusz/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 447
+			},
+			"model": "animated_java:item/the_creators/syriusz/right_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 448
+			},
+			"model": "animated_java:item/the_creators/technicman/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 449
+			},
+			"model": "animated_java:item/the_creators/technicman/headwear"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 450
+			},
+			"model": "animated_java:item/the_creators/technicman/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 451
+			},
+			"model": "animated_java:item/the_creators/technicman/jacket"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 452
+			},
+			"model": "animated_java:item/the_creators/technicman/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 453
+			},
+			"model": "animated_java:item/the_creators/technicman/left_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 454
+			},
+			"model": "animated_java:item/the_creators/technicman/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 455
+			},
+			"model": "animated_java:item/the_creators/technicman/right_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 456
+			},
+			"model": "animated_java:item/the_creators/technicman/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 457
+			},
+			"model": "animated_java:item/the_creators/technicman/left_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 458
+			},
+			"model": "animated_java:item/the_creators/technicman/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 459
+			},
+			"model": "animated_java:item/the_creators/technicman/right_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 460
+			},
+			"model": "animated_java:item/the_creators/watsug/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 461
+			},
+			"model": "animated_java:item/the_creators/watsug/headwear"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 462
+			},
+			"model": "animated_java:item/the_creators/watsug/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 463
+			},
+			"model": "animated_java:item/the_creators/watsug/jacket"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 464
+			},
+			"model": "animated_java:item/the_creators/watsug/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 465
+			},
+			"model": "animated_java:item/the_creators/watsug/left_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 466
+			},
+			"model": "animated_java:item/the_creators/watsug/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 467
+			},
+			"model": "animated_java:item/the_creators/watsug/right_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 468
+			},
+			"model": "animated_java:item/the_creators/watsug/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 469
+			},
+			"model": "animated_java:item/the_creators/watsug/left_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 470
+			},
+			"model": "animated_java:item/the_creators/watsug/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 471
+			},
+			"model": "animated_java:item/the_creators/watsug/right_pants"
 		}
 	],
 	"animated_java": {
@@ -2713,6 +3289,106 @@
 					373,
 					374,
 					375
+				]
+			},
+			"the_creators": {
+				"used_ids": [
+					376,
+					377,
+					378,
+					379,
+					380,
+					381,
+					382,
+					383,
+					384,
+					385,
+					386,
+					387,
+					388,
+					389,
+					390,
+					391,
+					392,
+					393,
+					394,
+					395,
+					396,
+					397,
+					398,
+					399,
+					400,
+					401,
+					402,
+					403,
+					404,
+					405,
+					406,
+					407,
+					408,
+					409,
+					410,
+					411,
+					412,
+					413,
+					414,
+					415,
+					416,
+					417,
+					418,
+					419,
+					420,
+					421,
+					422,
+					423,
+					424,
+					425,
+					426,
+					427,
+					428,
+					429,
+					430,
+					431,
+					432,
+					433,
+					434,
+					435,
+					436,
+					437,
+					438,
+					439,
+					440,
+					441,
+					442,
+					443,
+					444,
+					445,
+					446,
+					447,
+					448,
+					449,
+					450,
+					451,
+					452,
+					453,
+					454,
+					455,
+					456,
+					457,
+					458,
+					459,
+					460,
+					461,
+					462,
+					463,
+					464,
+					465,
+					466,
+					467,
+					468,
+					469,
+					470,
+					471
 				]
 			}
 		}
