@@ -109,7 +109,14 @@ void main() {
     int nauseaValue = int(control_color.b * 255.);
     if (nauseaValue > 0) {
         // fragColor = vec4(0.0, 0.0, 0.0, 1.0);
-        fragColor = fragColor + vec4(0.01, -0.1, 0.05, 1.0);
+        // fragColor = fragColor + vec4(0.01, -0.1, 0.05, 1.0);
+        // vec4 near = texture(DiffuseSampler, texCoord + vec2(-0.02, -0.02));
+        // fragColor = mix(
+        //     fragColor,
+        //     vec4(fragColor.r, near.g + 0.1, near.b + 0.2, 1.0),
+        //     0.3
+        // );
+        fragColor = fragColor * vec4(vec3(fragColor.g + fragColor.b * 1.3), 1.0);
     }
     if (nauseaValue > 0 && nauseaValue < 255) {
         float range = sin(control_color.b * 3.14) * 0.02;
