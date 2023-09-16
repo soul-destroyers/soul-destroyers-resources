@@ -8,6 +8,24 @@
             "chars": [
                 "\uFFF1"
             ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bossbars:stealth.png",
+            "ascent": 10,
+            "height": 50,
+            "chars": [
+                "\uFFF2"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "bossbars:stealthtime.png",
+            "ascent": 10,
+            "height": 50,
+            "chars": [
+                "\uFFF3"
+            ]
         }
     ]
 }
