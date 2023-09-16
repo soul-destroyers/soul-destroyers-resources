@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/carrot_on_a_stick"
+  },
+   "overrides": [
+    {"predicate": {"custom_model_data": 2137002}, "model": "soul_destroyers:item/coin_bag"}
+  ]
+}
