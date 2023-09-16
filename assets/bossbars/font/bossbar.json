@@ -1,0 +1,13 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "bossbars:mooseshroom.png",
+            "ascent": 10,
+            "height": 50,
+            "chars": [
+                "\uFFF1"
+            ]
+        }
+    ]
+}
