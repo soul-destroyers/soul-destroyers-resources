@@ -63,9 +63,15 @@ void main() {
         float timeSpan = float(effectTimer) / 255.0;
 
 
-        float brightness = min(0.86, smoothstep(0.0, 1.0, timeSpan) * (noise(texCoord * 6.0) + 1.6));
-
-        fragColor = fragColor + vec4(brightness, brightness, brightness, 1.0);
+        // float brightness = min(0.86, smoothstep(0.0, 1.0, timeSpan) * (noise(texCoord * 6.0) + 1.6));
+        fragColor = mix(
+            fragColor,
+            vec4(0.0, 0.0, 0.0, 1.0),
+            smoothstep(0.0, 0.6, (distanceToMiddle * 0.5) + (0.7 - timeSpan))
+        );
+        // stunt effect
+        // fragColor = vec4(1.0, 1.0, 1.0, 1.0);
+        // fragColor = fragColor + vec4(brightness, brightness, brightness, 1.0);
         // fragColor = mix(
         //     fragColor, 
         //     vec4(1.0, .97, 1.0, 1.0),
@@ -140,4 +146,9 @@ void main() {
     if (desaturationValue == 255) {
         fragColor = fragColor * vec4(vec3(fragColor.g + fragColor.b * 1.3), 1.0);
     }
+
+    // float depth = LinearizeDepth(texture2D(DiffuseDepthSampler, texCoord).r);
+    // fragColor = vec4(fragColor.rgb / max(1.0, depth), fragColor.a);
+    // fragColor = 
+
 }

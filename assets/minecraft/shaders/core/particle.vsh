@@ -31,7 +31,7 @@ vec2[] corners = vec2[](
 );
 
 const float minGreen = 249.0;
-const float maxGreen = 253.0;
+const float maxGreen = 254.0;
 
 void main() {
     tint = Color;
