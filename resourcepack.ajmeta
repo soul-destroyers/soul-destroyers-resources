@@ -539,6 +539,44 @@
                 "assets\\animated_java\\textures\\item\\the_creators\\_syriusz_.png",
                 "assets\\minecraft\\models\\item\\animated_java_empty.json"
             ]
+        },
+        "95c5019b-5702-3283-085a-4d30ab6c956f": {
+            "project_name": "locator_poc",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\locator_poc\\head.json",
+                "assets\\animated_java\\models\\item\\locator_poc\\headwear.json",
+                "assets\\animated_java\\models\\item\\locator_poc\\body.json",
+                "assets\\animated_java\\models\\item\\locator_poc\\jacket.json",
+                "assets\\animated_java\\models\\item\\locator_poc\\left_arm.json",
+                "assets\\animated_java\\models\\item\\locator_poc\\left_sleve.json",
+                "assets\\animated_java\\models\\item\\locator_poc\\right_arm.json",
+                "assets\\animated_java\\models\\item\\locator_poc\\right_sleve.json",
+                "assets\\animated_java\\models\\item\\locator_poc\\left_leg.json",
+                "assets\\animated_java\\models\\item\\locator_poc\\left_pants.json",
+                "assets\\animated_java\\models\\item\\locator_poc\\right_leg.json",
+                "assets\\animated_java\\models\\item\\locator_poc\\right_pants.json",
+                "assets\\animated_java\\textures\\item\\locator_poc\\player.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
+        },
+        "163b9a25-534d-f6cb-0332-4c136a8fb12e": {
+            "project_name": "the_lord",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\the_lord\\right_pants.json",
+                "assets\\animated_java\\models\\item\\the_lord\\right_leg.json",
+                "assets\\animated_java\\models\\item\\the_lord\\left_pants.json",
+                "assets\\animated_java\\models\\item\\the_lord\\left_leg.json",
+                "assets\\animated_java\\models\\item\\the_lord\\right_sleve.json",
+                "assets\\animated_java\\models\\item\\the_lord\\right_arm.json",
+                "assets\\animated_java\\models\\item\\the_lord\\left_sleve.json",
+                "assets\\animated_java\\models\\item\\the_lord\\left_arm.json",
+                "assets\\animated_java\\models\\item\\the_lord\\jacket.json",
+                "assets\\animated_java\\models\\item\\the_lord\\body.json",
+                "assets\\animated_java\\models\\item\\the_lord\\headwear.json",
+                "assets\\animated_java\\models\\item\\the_lord\\head.json",
+                "assets\\animated_java\\textures\\item\\the_lord\\lord.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
         }
     }
 }

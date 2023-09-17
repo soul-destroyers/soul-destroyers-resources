@@ -59,7 +59,7 @@ void main() {
     // Stunt effect 
     vec4 control_color = texelFetch(ControlSampler, ivec2(0, 1), 0);
     int effectTimer = int(control_color.b * 255.);
-    if (effectTimer > 0 && effectTimer < 255) {
+    if (effectTimer > 0 && effectTimer <= 255) {
         float timeSpan = float(effectTimer) / 255.0;
 
 
@@ -67,7 +67,7 @@ void main() {
         fragColor = mix(
             fragColor,
             vec4(0.0, 0.0, 0.0, 1.0),
-            smoothstep(0.0, 0.6, (distanceToMiddle * 0.5) + (0.7 - timeSpan))
+            (distanceToMiddle * 0.5) + (0.6 - timeSpan)
         );
         // stunt effect
         // fragColor = vec4(1.0, 1.0, 1.0, 1.0);
