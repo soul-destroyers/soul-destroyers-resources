@@ -1,0 +1,84 @@
+{
+	"textures": {
+		"0": "animated_java:item/locator_poc/player"
+	},
+	"elements": [
+		{
+			"from": [
+				17,
+				-2,
+				6
+			],
+			"to": [
+				21,
+				10,
+				10
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						11,
+						5,
+						12,
+						8
+					],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [
+						10,
+						5,
+						11,
+						8
+					],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [
+						13,
+						5,
+						14,
+						8
+					],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [
+						12,
+						5,
+						13,
+						8
+					],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [
+						12,
+						5,
+						11,
+						4
+					],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [
+						13,
+						4,
+						12,
+						5
+					],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [
+				0,
+				180,
+				0
+			]
+		}
+	}
+}

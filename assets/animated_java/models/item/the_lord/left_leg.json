@@ -1,0 +1,93 @@
+{
+	"textures": {
+		"1": "animated_java:item/the_lord/lord"
+	},
+	"elements": [
+		{
+			"from": [
+				2,
+				-4,
+				6
+			],
+			"to": [
+				6,
+				8,
+				10
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "z",
+				"origin": [
+					6,
+					-4,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						1,
+						5,
+						2,
+						8
+					],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [
+						0,
+						5,
+						1,
+						8
+					],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [
+						3,
+						5,
+						4,
+						8
+					],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [
+						2,
+						5,
+						3,
+						8
+					],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [
+						2,
+						5,
+						1,
+						4
+					],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [
+						3,
+						4,
+						2,
+						5
+					],
+					"texture": "#1"
+				}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [
+				0,
+				180,
+				0
+			]
+		}
+	}
+}
