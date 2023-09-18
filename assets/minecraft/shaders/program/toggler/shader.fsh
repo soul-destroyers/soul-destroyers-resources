@@ -4,6 +4,7 @@ uniform sampler2D DiffuseSampler;
 uniform sampler2D DiffuseDepthSampler;
 uniform sampler2D ControlSampler;
 uniform sampler2D FlashlightSampler;
+uniform sampler2D LeavesSampler;
 
 uniform vec4 ColorModulate;
 
@@ -56,7 +57,7 @@ void main() {
     float distanceToMiddle = abs(distance(uv, middle)) - 0.2;
 
     // Channel #1
-    // Stunt effect 
+    // Hiding effect
     vec4 control_color = texelFetch(ControlSampler, ivec2(0, 1), 0);
     int effectTimer = int(control_color.b * 255.);
     if (effectTimer > 0 && effectTimer <= 255) {
@@ -67,7 +68,13 @@ void main() {
         fragColor = mix(
             fragColor,
             vec4(0.0, 0.0, 0.0, 1.0),
-            (distanceToMiddle * 0.5) + (0.6 - timeSpan)
+            min(0.0, (distanceToMiddle * 0.5) + (0.5 - timeSpan * 1.0))
+        );
+        vec4 leafColor = texture(LeavesSampler, 1.0 - texCoord);
+        fragColor = mix(
+            fragColor,
+            vec4(0.0, 0.0, 0.0, 1.0),
+            max(0.0, (leafColor.a * 1.0) + (0.3 - timeSpan * 1.0))
         );
         // stunt effect
         // fragColor = vec4(1.0, 1.0, 1.0, 1.0);
@@ -150,5 +157,4 @@ void main() {
     // float depth = LinearizeDepth(texture2D(DiffuseDepthSampler, texCoord).r);
     // fragColor = vec4(fragColor.rgb / max(1.0, depth), fragColor.a);
     // fragColor = 
-
 }

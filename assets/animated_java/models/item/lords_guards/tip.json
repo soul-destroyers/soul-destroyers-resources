@@ -1,0 +1,170 @@
+{
+	"textures": {
+		"0": "animated_java:item/lords_guards/halberd"
+	},
+	"elements": [
+		{
+			"from": [
+				8,
+				6.5,
+				7
+			],
+			"to": [
+				8,
+				10.5,
+				9
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					8,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						0,
+						0,
+						1
+					],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [
+						1,
+						0,
+						1.5,
+						1
+					],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [
+						0,
+						0,
+						0,
+						1
+					],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [
+						1,
+						1,
+						1.5,
+						2
+					],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [
+						0,
+						0.5,
+						0,
+						0
+					],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [
+						0,
+						0,
+						0,
+						0.5
+					],
+					"texture": "#0"
+				}
+			}
+		},
+		{
+			"from": [
+				7,
+				6.5,
+				8
+			],
+			"to": [
+				9,
+				10.5,
+				8
+			],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [
+					8,
+					8,
+					8
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						1.5,
+						0,
+						2,
+						1
+					],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [
+						0,
+						0,
+						0,
+						1
+					],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [
+						1.5,
+						1,
+						2,
+						2
+					],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [
+						0,
+						0,
+						0,
+						1
+					],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [
+						0.5,
+						0,
+						0,
+						0
+					],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [
+						0.5,
+						0,
+						0,
+						0
+					],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [
+				0,
+				180,
+				0
+			]
+		}
+	}
+}

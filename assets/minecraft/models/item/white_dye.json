@@ -2973,6 +2973,102 @@
 				"custom_model_data": 495
 			},
 			"model": "animated_java:item/the_lord/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 496
+			},
+			"model": "animated_java:item/lords_guards/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 497
+			},
+			"model": "animated_java:item/lords_guards/headwear"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 498
+			},
+			"model": "animated_java:item/lords_guards/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 499
+			},
+			"model": "animated_java:item/lords_guards/jacket"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 500
+			},
+			"model": "animated_java:item/lords_guards/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 501
+			},
+			"model": "animated_java:item/lords_guards/left_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 502
+			},
+			"model": "animated_java:item/lords_guards/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 503
+			},
+			"model": "animated_java:item/lords_guards/right_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 504
+			},
+			"model": "animated_java:item/lords_guards/tip"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 505
+			},
+			"model": "animated_java:item/lords_guards/blade"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 506
+			},
+			"model": "animated_java:item/lords_guards/blade_back"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 507
+			},
+			"model": "animated_java:item/lords_guards/weapon"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 508
+			},
+			"model": "animated_java:item/lords_guards/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 509
+			},
+			"model": "animated_java:item/lords_guards/left_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 510
+			},
+			"model": "animated_java:item/lords_guards/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 511
+			},
+			"model": "animated_java:item/lords_guards/right_pants"
 		}
 	],
 	"animated_java": {
@@ -3565,6 +3661,26 @@
 					493,
 					494,
 					495
+				]
+			},
+			"lords_guards": {
+				"used_ids": [
+					496,
+					497,
+					498,
+					499,
+					500,
+					501,
+					502,
+					503,
+					504,
+					505,
+					506,
+					507,
+					508,
+					509,
+					510,
+					511
 				]
 			}
 		}
