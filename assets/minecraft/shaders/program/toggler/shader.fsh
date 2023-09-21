@@ -71,10 +71,13 @@ void main() {
             min(0.0, (distanceToMiddle * 0.5) + (0.5 - timeSpan * 1.0))
         );
         vec4 leafColor = texture(LeavesSampler, 1.0 - texCoord);
+        float isLeaf = step(0.5, leafColor.a);
+        float leafTexture = noise(texCoord * 25.0) * noise(texCoord * 100.0);
+        float leafTextureColor = isLeaf * leafTexture;
         fragColor = mix(
             fragColor,
-            vec4(0.0, 0.0, 0.0, 1.0),
-            max(0.0, (leafColor.a * 1.0) + (0.3 - timeSpan * 1.0))
+            vec4(0.0, 0.03 + leafTextureColor * 0.05, 0.0, 1.0),
+            max(0.0, (leafColor.a * 1.0) + (0.3 - timeSpan * 1.5))
         );
         // stunt effect
         // fragColor = vec4(1.0, 1.0, 1.0, 1.0);
