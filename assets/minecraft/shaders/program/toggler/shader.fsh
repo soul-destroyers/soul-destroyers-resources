@@ -41,6 +41,9 @@ float noise(vec2 p){
 	return res*res;
 }
 
+float getColorDifference(vec4 color) {
+    return color.r + color.g + color.b;
+}
 
 // Flashlight Variables
 const float exposure = 2.;
@@ -51,6 +54,25 @@ void main() {
 
 
 	fragColor = prev_color;
+
+    //Just a playground
+    // float xDistanceToMiddle = abs(texCoord.x - 0.5) + 0.5;
+    // float depthValue = max(0.0, (LinearizeDepth(texture2D(DiffuseDepthSampler, texCoord).r) / (sin(Time) * (60 / xDistanceToMiddle))));
+    // float dist = (1.0 - depthValue) / 200.0;
+    // // vec4 colorUp = texture(DiffuseSampler, texCoord + vec2(0, dist));
+    // // vec4 colorDown = texture(DiffuseSampler, texCoord - vec2(0, dist));
+    // // vec4 colorLeft = texture(DiffuseSampler, texCoord - vec2(dist, 0));
+    // // vec4 colorRight = texture(DiffuseSampler, texCoord + vec2(dist, 0));
+
+
+    // // float colorDifferenceLevel = 
+    // //     getColorDifference(abs(colorUp - colorDown)) 
+    // //     + getColorDifference(abs(colorLeft - colorRight));
+    // // fragColor = vec4(1.0, 1.0, 1.0, colorDifferenceLevel);
+    // // fragColor = vec4(1.0, 1.0, 1.0, depthValue);
+    // //end of a playground
+    // float currentEffectValue = (smoothstep(0.6, 0.7, 1.0 - depthValue)) * (1.0 - Time) * 0.5;
+    // fragColor = vec4(fragColor.r, fragColor.g + currentEffectValue, fragColor.b + currentEffectValue * 2.0, 1.0);
 
     vec2 uv = texCoord;
     vec2 middle = vec2(0.5, 0.5);
