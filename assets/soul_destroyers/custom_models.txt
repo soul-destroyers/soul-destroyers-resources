@@ -1,0 +1,4 @@
+Custom models list, by CustomModelData:
+- 2137001 (stick -> basic_sword)
+- 2137002 (carrot_on_a_stick -> coin_bag)
+- 2137003 (command_block -> gold)

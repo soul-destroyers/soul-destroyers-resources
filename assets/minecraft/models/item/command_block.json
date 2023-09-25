@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/command_block",
+   "overrides": [
+    {"predicate": {"custom_model_data": 2137003}, "model": "soul_destroyers:item/gold"}
+  ]
+}
