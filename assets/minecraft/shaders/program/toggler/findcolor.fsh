@@ -53,5 +53,9 @@ void main() {
             // Row 5:
             readMarker(fragColor, lastValue, ivec2(0, 8), vec2(254., 249.), 5);
             break;
+        case 6:
+            //row 6
+            readMarker(fragColor, lastValue, ivec2(0, 10), vec2(254., 248.), 6);
+            break;
     }
 }

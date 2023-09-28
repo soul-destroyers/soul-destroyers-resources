@@ -182,4 +182,12 @@ void main() {
     // float depth = LinearizeDepth(texture2D(DiffuseDepthSampler, texCoord).r);
     // fragColor = vec4(fragColor.rgb / max(1.0, depth), fragColor.a);
     // fragColor = 
+
+    //Channel #6
+    // Screen darkening
+    control_color = texelFetch(ControlSampler, ivec2(0, 6), 0);
+    effectValue = int(control_color.b * 255.);
+    if (effectValue > 0 && effectValue < 255) {
+        fragColor = vec4(fragColor.rgb, control_color.b);
+    }
 }
