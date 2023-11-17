@@ -49,11 +49,42 @@ float getColorDifference(vec4 color) {
 const float exposure = 2.;
 const float AOE = 8.;
 
+vec4 applyBlur(float Size) {
+    float Pi = 6.28318530718;
+    vec4 color = texture(DiffuseSampler, texCoord);
+
+    float Directions = 16.0;
+    float Quality = 10.0;
+
+    vec2 Radius = Size / texCoord.xy;
+
+    for(float d = 0.0; d < Pi; d += Pi / Directions) {
+		for(float i = 1.0 / Quality; i <= 1.0; i += 1.0 / Quality)
+        {
+			color += texture(DiffuseSampler, texCoord + vec2(cos(d),sin(d)) * Radius * i);		
+        }
+    }
+
+    color /= Quality * Directions - 15.0;
+
+    return color;
+}
+
 void main() {
     vec4 prev_color = texture(DiffuseSampler, texCoord);
 
+    vec2 uv = texCoord;
+    vec2 middle = vec2(0.5, 0.5);
+    float distanceToMiddle = abs(distance(uv, middle)) - 0.2;
 
 	fragColor = prev_color;
+
+    //Playground (Field of view effect)
+    float depth = LinearizeDepth(texture2D(DiffuseDepthSampler, texCoord).r) / 60;
+    fragColor = applyBlur(depth / 500);
+    
+    
+    //end of field of view effect
 
     //Just a playground
     // float xDistanceToMiddle = abs(texCoord.x - 0.5) + 0.5;
@@ -74,9 +105,7 @@ void main() {
     // float currentEffectValue = (smoothstep(0.6, 0.7, 1.0 - depthValue)) * (1.0 - Time) * 0.5;
     // fragColor = vec4(fragColor.r, fragColor.g + currentEffectValue, fragColor.b + currentEffectValue * 2.0, 1.0);
 
-    vec2 uv = texCoord;
-    vec2 middle = vec2(0.5, 0.5);
-    float distanceToMiddle = abs(distance(uv, middle)) - 0.2;
+
 
     // Channel #1
     // Hiding effect
