@@ -80,8 +80,8 @@ void main() {
 	fragColor = prev_color;
 
     //Playground (Field of view effect)
-    float depth = LinearizeDepth(texture2D(DiffuseDepthSampler, texCoord).r) / 60;
-    fragColor = applyBlur(depth / 500);
+    // float depth = LinearizeDepth(texture2D(DiffuseDepthSampler, texCoord).r) / 60;
+    // fragColor = applyBlur(depth / 500);
     
     
     //end of field of view effect
