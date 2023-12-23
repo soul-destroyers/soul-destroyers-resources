@@ -1,6 +1,7 @@
 #version 150
 
 uniform sampler2D DiffuseSampler;
+uniform sampler2D ControlSampler;
 
 in vec4 Position;
 
@@ -16,6 +17,8 @@ out vec2 proj;
 out vec2 ratio;
 flat out int nobjs;
 flat out float GameTime;
+flat out int isRenderer;
+flat out float controlVal;
 
 float decodeFloat(uint raw) { // From bálint
     uint sign = raw >> 31u;
@@ -69,4 +72,9 @@ void main() {
     gl_Position = vec4(x, y, 0.2, 1.0);
     texCoord = Position.xy / OutSize;
     oneTexel = 1.0 / OutSize;
+
+    vec4 controlValue = texelFetch(ControlSampler, ivec2(0, 0), 0);
+    
+    isRenderer = controlValue.r > .99 ? 1 : 0;
+    controlVal = controlValue.r;
 }

@@ -2,7 +2,7 @@
 
 uniform sampler2D DiffuseSampler;
 uniform sampler2D DepthSampler;
-uniform sampler2D StorageSampler;
+uniform sampler2D OutlineSampler;
 
 uniform vec2 OutSize;
 uniform float Time;
@@ -15,6 +15,8 @@ in mat3 viewmat;
 in vec2 proj;
 flat in int nobjs;
 flat in float GameTime;
+flat in int isRenderer;
+flat in float controlVal;
 
 out vec4 fragColor;
 
@@ -314,15 +316,22 @@ void main() {
     float l = length(rd);
     rd /= l;
     depth = depth * l;
-    //render
-    colorVal = render(ro, rd, min(depth, renderdistance), maincolor);
 
-
+    vec4 outlineColor = texture(OutlineSampler, texCoord);
+    
+    if (isRenderer == 1) {
+        //render
+        colorVal = render(ro, rd, min(depth, renderdistance), maincolor);
+    } else {
+        colorVal = outlineColor;
+    }
+    // colorVal = vec4(controlVal, vec2(0.0),1.0);
+    
     // colorVal = vec4(vec3(sin(GameTime * 24000.)), 1.0);
     // colorVal = vec4(maincolor, 1.0);
     // colorVal = vec4(vec3(depth / 100.0), 1.0);
     // colorVal = vec4(render(ro, rd, min(depth, renderdistance), maincolor), 1.0);
 
-
+    
     fragColor = colorVal;
 }

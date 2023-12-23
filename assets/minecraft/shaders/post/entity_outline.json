@@ -3,21 +3,33 @@
     "final",
     "swap",
     "last",
-    "water",
-    "translucent",
-    "itemEntity",
-    "particles",
-    "clouds",
-    "weather"
+    {"name": "controller", "width": 1, "height": 10},
+    {"name": "controllerSwap", "width": 1, "height": 10}
+
   ],
   "passes": [
+    {
+      "name": "find_glow_color",
+      "intarget": "controllerSwap",
+      "outtarget": "controller",
+      "auxtargets": [
+        {"name": "OutlineSampler", "id": "final"}
+      ]
+    },
+    {
+      "name": "copy",
+      "intarget": "controller",
+      "outtarget": "controllerSwap"
+    },
     {
       "name": "render",
       "intarget": "minecraft:main",
       "outtarget": "last",
       "auxtargets": [
         {"name": "DepthSampler", "id": "minecraft:main:depth"},
-        {"name": "LastSampler", "id": "last"}
+        {"name": "LastSampler", "id": "last"},
+        {"name": "ControlSampler", "id": "controller"},
+        {"name": "OutlineSampler", "id": "final"}
       ]
     },
     {"name": "copy", "intarget": "last", "outtarget": "swap"},
