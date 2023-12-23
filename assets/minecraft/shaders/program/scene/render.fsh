@@ -20,8 +20,8 @@ out vec4 fragColor;
 
 #define AA 1
 
-#define renderdistance 200
-#define fogstart 30
+#define renderdistance 80
+#define fogstart 80
 
 #define PI 3.14159265358979323846
 
@@ -156,7 +156,7 @@ obj SmoothIntersect(obj a, obj b, float k) {
 //--------------------------------------------------------------------------------
 //scene
 obj hit(in vec3 pos) {//obj     pos                     size                    material    smoothness
-    obj o = Sphere( pos + vec3(0,-4.5,0),    17,                      3);
+    obj o = Sphere( pos - vec3(0,64.5,0),    17,                      3);
     // o = SmoothSub(o,    Sphere( pos + vec3(-2,1.5,0),   2,                      1),         0.5);
     // o = Add(o,          Sphere( pos + vec3(2,1,4),      1,                      2));
     // o = Add(o,          Cube(   pos + vec3(5,1,1),      vec3(1),                3));
@@ -256,7 +256,7 @@ vec4 render(vec3 ro, vec3 rd, float fardepth, vec3 maincolor) {
                 color = vec4(0.6, 0.3, 0.4, 1.0);
                 color.rgb += dot(norm, sundir) * sunlight;
                 break;
-            case 3: // translucent
+            case 3: // the positional fog
                 color = vec4(vec3(166, 215, 255) / 255, 0.0);
                 vec3 posInside = currPos;
                 for (int i = 0; i < 30; i++) {
@@ -269,6 +269,7 @@ vec4 render(vec3 ro, vec3 rd, float fardepth, vec3 maincolor) {
                     }
                     posInside += rd / 1;
                 }
+                color.a *= min(Remap(fardepth - distance(ro, currPos), 0, 10, .1, 1), 1);
                 break;
             default: color = vec4((norm + 1) / 2, 1.0);
         }
@@ -282,13 +283,8 @@ vec4 render(vec3 ro, vec3 rd, float fardepth, vec3 maincolor) {
         light += skyamount * skylight * ao;
         light += indamount * indlight * ao;
 
-        // color *= vec4(light, 1.0);
-
         //fog
         color.rgb = mix(color.rgb, sky, smoothstep(0,1, clamp((t-fogstart)/(renderdistance-fogstart) ,0,1)));
-
-        // color.a = 0;
-        color.a *= min(Remap(fardepth - distance(ro, currPos), 0, 10, .1, 1), 1);
     }
     //world
     else if (t < renderdistance) {
@@ -297,7 +293,7 @@ vec4 render(vec3 ro, vec3 rd, float fardepth, vec3 maincolor) {
         // color = mix(color, sky, smoothstep(0,1, clamp((fardepth-fogstart)/(renderdistance-fogstart) ,0,1)));
     }
     //sun glare
-    color.rgb += 0.25 * vec3(0.8,0.4,0.2) * pow(sunamount, 4.0);
+    // color.rgb += 0.25 * vec3(0.8,0.4,0.2) * pow(sunamount, 4.0);
 
     //return color
     color = clamp(color, 0.0, 1.0);
