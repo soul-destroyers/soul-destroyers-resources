@@ -601,6 +601,50 @@
                 "assets\\animated_java\\textures\\item\\lords_guards\\steve.png",
                 "assets\\minecraft\\models\\item\\animated_java_empty.json"
             ]
+        },
+        "2d984add-ea17-9024-58c4-78b5956e8d5a": {
+            "project_name": "a_person",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\a_person\\head.json",
+                "assets\\animated_java\\models\\item\\a_person\\headwear.json",
+                "assets\\animated_java\\models\\item\\a_person\\body.json",
+                "assets\\animated_java\\models\\item\\a_person\\jacket.json",
+                "assets\\animated_java\\models\\item\\a_person\\left_arm.json",
+                "assets\\animated_java\\models\\item\\a_person\\left_sleve.json",
+                "assets\\animated_java\\models\\item\\a_person\\right_arm.json",
+                "assets\\animated_java\\models\\item\\a_person\\right_sleve.json",
+                "assets\\animated_java\\models\\item\\a_person\\left_leg.json",
+                "assets\\animated_java\\models\\item\\a_person\\left_pants.json",
+                "assets\\animated_java\\models\\item\\a_person\\right_leg.json",
+                "assets\\animated_java\\models\\item\\a_person\\right_pants.json",
+                "assets\\animated_java\\models\\item\\a_person\\bandit\\head.json",
+                "assets\\animated_java\\models\\item\\a_person\\bandit\\headwear.json",
+                "assets\\animated_java\\models\\item\\a_person\\bandit\\body.json",
+                "assets\\animated_java\\models\\item\\a_person\\bandit\\jacket.json",
+                "assets\\animated_java\\models\\item\\a_person\\bandit\\left_arm.json",
+                "assets\\animated_java\\models\\item\\a_person\\bandit\\left_sleve.json",
+                "assets\\animated_java\\models\\item\\a_person\\bandit\\right_arm.json",
+                "assets\\animated_java\\models\\item\\a_person\\bandit\\right_sleve.json",
+                "assets\\animated_java\\models\\item\\a_person\\bandit\\left_leg.json",
+                "assets\\animated_java\\models\\item\\a_person\\bandit\\left_pants.json",
+                "assets\\animated_java\\models\\item\\a_person\\bandit\\right_leg.json",
+                "assets\\animated_java\\models\\item\\a_person\\bandit\\right_pants.json",
+                "assets\\animated_java\\models\\item\\a_person\\hawk_soldier\\head.json",
+                "assets\\animated_java\\models\\item\\a_person\\hawk_soldier\\headwear.json",
+                "assets\\animated_java\\models\\item\\a_person\\hawk_soldier\\body.json",
+                "assets\\animated_java\\models\\item\\a_person\\hawk_soldier\\jacket.json",
+                "assets\\animated_java\\models\\item\\a_person\\hawk_soldier\\left_arm.json",
+                "assets\\animated_java\\models\\item\\a_person\\hawk_soldier\\left_sleve.json",
+                "assets\\animated_java\\models\\item\\a_person\\hawk_soldier\\right_arm.json",
+                "assets\\animated_java\\models\\item\\a_person\\hawk_soldier\\right_sleve.json",
+                "assets\\animated_java\\models\\item\\a_person\\hawk_soldier\\left_leg.json",
+                "assets\\animated_java\\models\\item\\a_person\\hawk_soldier\\left_pants.json",
+                "assets\\animated_java\\models\\item\\a_person\\hawk_soldier\\right_leg.json",
+                "assets\\animated_java\\models\\item\\a_person\\hawk_soldier\\right_pants.json",
+                "assets\\animated_java\\textures\\item\\a_person\\medieval_bandit.png",
+                "assets\\animated_java\\textures\\item\\a_person\\hawk_soldier.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
         }
     }
 }

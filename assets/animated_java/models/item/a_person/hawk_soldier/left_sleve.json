@@ -1,0 +1,8 @@
+{
+	"parent": "animated_java:item/a_person/left_sleve",
+	"textures": {
+		"0": "animated_java:item/a_person/hawk_soldier",
+		"1": "animated_java:item/a_person/hawk_soldier",
+		"2": "animated_java:item/a_person/hawk_soldier"
+	}
+}

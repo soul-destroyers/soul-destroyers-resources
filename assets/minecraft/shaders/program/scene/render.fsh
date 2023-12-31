@@ -8,7 +8,7 @@ uniform vec2 OutSize;
 uniform float Time;
 
 in vec2 texCoord;
-in vec2 OneTexel;
+in vec2 oneTexel;
 in vec2 ratio;
 in vec3 position;
 in mat3 viewmat;
@@ -19,6 +19,8 @@ flat in int isRenderer;
 flat in float controlVal;
 
 out vec4 fragColor;
+
+#define PIXELATION_FACTOR 2
 
 #define AA 1
 
@@ -258,7 +260,7 @@ vec4 render(vec3 ro, vec3 rd, float fardepth, vec3 maincolor) {
                 color = vec4(0.6, 0.3, 0.4, 1.0);
                 color.rgb += dot(norm, sundir) * sunlight;
                 break;
-            case 3: // the positional fog
+            case 3: // white fog
                 color = vec4(vec3(166, 215, 255) / 255, 0.0);
                 vec3 posInside = currPos;
                 for (int i = 0; i < 30; i++) {
@@ -319,9 +321,15 @@ void main() {
 
     vec4 outlineColor = texture(OutlineSampler, texCoord);
     
+    bool isDataPixel = int((texCoord * OutSize).x) % PIXELATION_FACTOR == 0;
+
     if (isRenderer == 1) {
         //render
-        colorVal = render(ro, rd, min(depth, renderdistance), maincolor);
+        // if (isDataPixel) {
+            colorVal = render(ro, rd, min(depth, renderdistance), maincolor);
+        // } else {
+            // colorVal = vec4(0.0);
+        // }
     } else {
         colorVal = outlineColor;
     }

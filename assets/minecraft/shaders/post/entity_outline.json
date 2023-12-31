@@ -32,7 +32,11 @@
         {"name": "OutlineSampler", "id": "final"}
       ]
     },
-    {"name": "copy", "intarget": "last", "outtarget": "swap"},
+    {
+      "name": "restore",
+      "intarget": "last",
+      "outtarget": "swap"
+    },
     {"name": "copy", "intarget": "swap", "outtarget": "final"}
   ]
 }

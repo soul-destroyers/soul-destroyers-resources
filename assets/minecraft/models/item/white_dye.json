@@ -3069,6 +3069,222 @@
 				"custom_model_data": 511
 			},
 			"model": "animated_java:item/lords_guards/right_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 512
+			},
+			"model": "animated_java:item/a_person/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 513
+			},
+			"model": "animated_java:item/a_person/headwear"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 514
+			},
+			"model": "animated_java:item/a_person/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 515
+			},
+			"model": "animated_java:item/a_person/jacket"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 516
+			},
+			"model": "animated_java:item/a_person/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 517
+			},
+			"model": "animated_java:item/a_person/left_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 518
+			},
+			"model": "animated_java:item/a_person/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 519
+			},
+			"model": "animated_java:item/a_person/right_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 520
+			},
+			"model": "animated_java:item/a_person/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 521
+			},
+			"model": "animated_java:item/a_person/left_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 522
+			},
+			"model": "animated_java:item/a_person/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 523
+			},
+			"model": "animated_java:item/a_person/right_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 524
+			},
+			"model": "animated_java:item/a_person/bandit/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 525
+			},
+			"model": "animated_java:item/a_person/bandit/headwear"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 526
+			},
+			"model": "animated_java:item/a_person/bandit/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 527
+			},
+			"model": "animated_java:item/a_person/bandit/jacket"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 528
+			},
+			"model": "animated_java:item/a_person/bandit/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 529
+			},
+			"model": "animated_java:item/a_person/bandit/left_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 530
+			},
+			"model": "animated_java:item/a_person/bandit/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 531
+			},
+			"model": "animated_java:item/a_person/bandit/right_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 532
+			},
+			"model": "animated_java:item/a_person/bandit/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 533
+			},
+			"model": "animated_java:item/a_person/bandit/left_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 534
+			},
+			"model": "animated_java:item/a_person/bandit/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 535
+			},
+			"model": "animated_java:item/a_person/bandit/right_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 536
+			},
+			"model": "animated_java:item/a_person/hawk_soldier/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 537
+			},
+			"model": "animated_java:item/a_person/hawk_soldier/headwear"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 538
+			},
+			"model": "animated_java:item/a_person/hawk_soldier/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 539
+			},
+			"model": "animated_java:item/a_person/hawk_soldier/jacket"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 540
+			},
+			"model": "animated_java:item/a_person/hawk_soldier/left_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 541
+			},
+			"model": "animated_java:item/a_person/hawk_soldier/left_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 542
+			},
+			"model": "animated_java:item/a_person/hawk_soldier/right_arm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 543
+			},
+			"model": "animated_java:item/a_person/hawk_soldier/right_sleve"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 544
+			},
+			"model": "animated_java:item/a_person/hawk_soldier/left_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 545
+			},
+			"model": "animated_java:item/a_person/hawk_soldier/left_pants"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 546
+			},
+			"model": "animated_java:item/a_person/hawk_soldier/right_leg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 547
+			},
+			"model": "animated_java:item/a_person/hawk_soldier/right_pants"
 		}
 	],
 	"animated_java": {
@@ -3681,6 +3897,46 @@
 					509,
 					510,
 					511
+				]
+			},
+			"a_person": {
+				"used_ids": [
+					512,
+					513,
+					514,
+					515,
+					516,
+					517,
+					518,
+					519,
+					520,
+					521,
+					522,
+					523,
+					524,
+					525,
+					526,
+					527,
+					528,
+					529,
+					530,
+					531,
+					532,
+					533,
+					534,
+					535,
+					536,
+					537,
+					538,
+					539,
+					540,
+					541,
+					542,
+					543,
+					544,
+					545,
+					546,
+					547
 				]
 			}
 		}
