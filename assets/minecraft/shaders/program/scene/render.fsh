@@ -533,6 +533,8 @@ obj SmoothIntersect(obj a, obj b, float k) {
 //scene
 obj hit(in vec3 pos) {//obj     pos                     size                    material    smoothness
     obj o = Sphere( pos - vec3(0,64,0),    150,                      3);
+
+    o = Add(o, Sphere(pos - vec3(100,20,0), 150, 3));
     // o = SmoothSub(o,    Sphere( pos + vec3(-2,1.5,0),   2,                      1),         0.5);
     // o = Add(o,          Sphere( pos + vec3(2,1,4),      1,                      2));
     // o = Add(o,          Cube(   pos + vec3(5,1,1),      vec3(1),                3));
