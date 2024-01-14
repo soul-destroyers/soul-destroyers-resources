@@ -641,7 +641,7 @@ vec4 render(vec3 ro, vec3 rd, float fardepth, vec3 maincolor) {
                         vec3 samplerPos = posInside * .27;
                         samplerPos.x += GameTime * 300;
                         float noise = clamp(Cellular3D(samplerPos), 0.15, .34);
-                        float colorVal = (noise) * 0.233 + .015;
+                        float colorVal = (noise) * 0.253 + .015;
                         color.a += colorVal;
                     }
                     posInside += rd;
