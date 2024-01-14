@@ -633,15 +633,15 @@ vec4 render(vec3 ro, vec3 rd, float fardepth, vec3 maincolor) {
                 color.rgb += dot(norm, sundir) * sunlight;
                 break;
             case 3: // white spider celestial web
-                color = vec4(vec3(130, 130, 130) / 255, 0.0);
+                color = vec4(vec3(140, 140, 180) / 255, 0.0);
                 vec3 posInside = currPos;
                 for (int i = 0; i < 12; i++) {
                     obj curr = hit(posInside);
                     if (curr.depth < 0) {
                         vec3 samplerPos = posInside * .27;
                         samplerPos.x += GameTime * 300;
-                        float noise = clamp(Cellular3D(samplerPos), 0.1, .35);
-                        float colorVal = (noise) * 0.233 + .01;
+                        float noise = clamp(Cellular3D(samplerPos), 0.15, .34);
+                        float colorVal = (noise) * 0.233 + .015;
                         color.a += colorVal;
                     }
                     posInside += rd;
