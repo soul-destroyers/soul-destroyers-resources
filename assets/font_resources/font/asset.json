@@ -1,0 +1,13 @@
+{
+  "providers": [
+      {
+          "type": "bitmap",
+          "file": "font_resources:crossroads_title.png",
+          "ascent": 20,
+          "height": 50,
+          "chars": [
+              "\uFFF1"
+          ]
+      }
+  ]
+}
