@@ -98,7 +98,8 @@
                 {"name": "ControlSampler","id": "controller"},
                 {"name": "DiffuseDepthSampler","id": "minecraft:main:depth"},
                 {"name": "FlashlightSampler","id": "flashlight","width":  428,"height": 1205,"bilinear": false},
-                {"name": "LeavesSampler", "id": "leaves_overlay", "width": 1764, "height": 1027, "bilinear": false}
+                {"name": "LeavesSampler", "id": "leaves_overlay", "width": 1764, "height": 1027, "bilinear": false},
+                {"name": "PaintSampler", "id": "mask", "width": 1920, "height": 1080, "bilinear": false}
             ]
         },
         {

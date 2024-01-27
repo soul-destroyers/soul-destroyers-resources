@@ -5,6 +5,7 @@ uniform sampler2D DiffuseDepthSampler;
 uniform sampler2D ControlSampler;
 uniform sampler2D FlashlightSampler;
 uniform sampler2D LeavesSampler;
+uniform sampler2D PaintSampler;
 
 uniform vec4 ColorModulate;
 
@@ -104,6 +105,21 @@ void main() {
     // //end of a playground
     // float currentEffectValue = (smoothstep(0.6, 0.7, 1.0 - depthValue)) * (1.0 - Time) * 0.5;
     // fragColor = vec4(fragColor.r, fragColor.g + currentEffectValue, fragColor.b + currentEffectValue * 2.0, 1.0);
+
+    // Playground (Focus effect))
+    // float depth = LinearizeDepth(texture2D(DiffuseDepthSampler, texCoord).r) / 100;
+    // float dist = (1.0 - depth) / 500.0;
+    // vec4 colorUp = texture(DiffuseSampler, texCoord + vec2(0, dist));
+    // vec4 colorDown = texture(DiffuseSampler, texCoord - vec2(0, dist));
+    // vec4 colorLeft = texture(DiffuseSampler, texCoord - vec2(dist, 0));
+    // vec4 colorRight = texture(DiffuseSampler, texCoord + vec2(dist, 0));
+    // float edge = getColorDifference(
+    //     abs(colorUp - colorDown)
+    // ) + getColorDifference(
+    //     abs(colorLeft - colorRight)
+    // );
+    // float paintValue = texture(PaintSampler, texCoord).a;
+    // fragColor = fragColor + vec4(fragColor) * paintValue * edge * 2;
 
 
 
