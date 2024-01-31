@@ -17,6 +17,15 @@
         "chars": [
             "\uFFF2"
         ]
+    },
+    {
+      "type": "bitmap",
+      "file": "font_resources:snow.png",
+      "ascent": 4,
+      "height": 6,
+      "chars": [
+          "\uFFF3"
+      ]
     }
   ]
 }
