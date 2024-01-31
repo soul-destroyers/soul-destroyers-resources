@@ -12,7 +12,7 @@
       {
         "type": "bitmap",
         "file": "font_resources:smoke.png",
-        "ascent": 0,
+        "ascent": 7,
         "height": 10,
         "chars": [
             "\uFFF2"
