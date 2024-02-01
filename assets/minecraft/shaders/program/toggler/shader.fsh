@@ -121,6 +121,18 @@ void main() {
     // float paintValue = texture(PaintSampler, texCoord).a;
     // fragColor = fragColor + vec4(fragColor) * paintValue * edge * 2;
 
+    // Playground (Distortion effect)
+    // float depth = LinearizeDepth(texture2D(DiffuseDepthSampler, texCoord).r) / 250;
+    
+    // vec2 samplePos = texCoord
+    //     + sin(texCoord * 80 + depth * 70) * 0.009 * depth
+    // ;
+    // if (depth > .99) {
+    //     samplePos = texCoord;   
+    // }
+    // vec4 color = texture(DiffuseSampler, samplePos) * max(1.0, depth * 1.1);
+    // fragColor = color;
+
 
 
     // Channel #1
