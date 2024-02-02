@@ -122,8 +122,13 @@ void main() {
     // fragColor = fragColor + vec4(fragColor) * paintValue * edge * 2;
 
     // Playground (Distortion effect)
-    // float depth = LinearizeDepth(texture2D(DiffuseDepthSampler, texCoord).r) / 250;
-    
+    float depth = LinearizeDepth(texture2D(DiffuseDepthSampler, texCoord).r) / 180;
+    float fog = smoothstep(noise(texCoord * 8) * .5 + .2, .9, depth + distanceToMiddle);
+    fragColor = mix(
+        fragColor,
+        vec4(.85, .66, 0.45, 1.0),
+        fog
+    );
     // vec2 samplePos = texCoord
     //     + sin(texCoord * 80 + depth * 70) * 0.009 * depth
     // ;
