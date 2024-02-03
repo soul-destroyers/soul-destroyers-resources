@@ -1,1 +1,1 @@
-git pull https://github.com/Syriusz-2005/the-hero-map-resurces.git
+git pull https://github.com/soul-destroyers/soul-destroyers-resources.git

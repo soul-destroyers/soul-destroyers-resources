@@ -8,6 +8,6 @@
     {"predicate": {"custom_model_data": 2137103}, "model": "soul_destroyers:item/blade_of_wheat"},
     {"predicate": {"custom_model_data": 2137104}, "model": "soul_destroyers:item/mooseshroom_horn"},
     {"predicate": {"custom_model_data": 2137105}, "model": "soul_destroyers:item/lava_spider_string"},
-    {"predicate": {"custom_model_data": 2137106}, "model": "soul_destroyers:item/pyrite"},
+    {"predicate": {"custom_model_data": 2137106}, "model": "soul_destroyers:item/pyrite"}
   ]
 }
