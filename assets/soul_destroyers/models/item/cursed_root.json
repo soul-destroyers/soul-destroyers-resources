@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "soul_destroyers:item/cursed_root"
+    }
+}

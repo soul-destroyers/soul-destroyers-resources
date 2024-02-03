@@ -1,6 +1,13 @@
 {
   "parent": "minecraft:block/command_block",
    "overrides": [
-    {"predicate": {"custom_model_data": 2137003}, "model": "soul_destroyers:item/gold"}
+    {"predicate": {"custom_model_data": 2137003}, "model": "soul_destroyers:item/gold"},
+    {"predicate": {"custom_model_data": 2137100}, "model": "soul_destroyers:item/cyan_magic_shard"},
+    {"predicate": {"custom_model_data": 2137101}, "model": "soul_destroyers:item/crimson_magic_shard"},
+    {"predicate": {"custom_model_data": 2137102}, "model": "soul_destroyers:item/cursed_root"},
+    {"predicate": {"custom_model_data": 2137103}, "model": "soul_destroyers:item/blade_of_wheat"},
+    {"predicate": {"custom_model_data": 2137104}, "model": "soul_destroyers:item/mooseshroom_horn"},
+    {"predicate": {"custom_model_data": 2137105}, "model": "soul_destroyers:item/lava_spider_string"},
+    {"predicate": {"custom_model_data": 2137106}, "model": "soul_destroyers:item/pyrite"},
   ]
 }

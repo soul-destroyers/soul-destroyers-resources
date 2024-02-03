@@ -1,4 +1,11 @@
 Custom models list, by CustomModelData:
-- 2137001 (stick -> basic_sword)
-- 2137002 (carrot_on_a_stick -> coin_bag)
-- 2137003 (command_block -> gold)
+- 2137001 stick -> basic_sword
+- 2137002 carrot_on_a_stick -> coin_bag
+- 2137003 command_block -> gold
+- 2137100 command_block -> cyan_magic_shard
+- 2137101 command_block -> crimson_magic_shard
+- 2137102 command_block -> cursed_root
+- 2137103 command_block -> blade_of_wheat
+- 2137104 command_block -> mooseshroom_horn
+- 2137105 command_block -> lava_spider_string
+- 2137106 command_block -> pyrite
