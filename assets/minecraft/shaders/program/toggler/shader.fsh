@@ -252,7 +252,7 @@ void main() {
     if (effectValue > 0 && effectValue <= 85) {
         float immersionStrength = float(effectValue) / 85; 
         // Distortion effect
-        float depth = LinearizeDepth(texture2D(DiffuseDepthSampler, texCoord).r) / 180;
+        float depth = LinearizeDepth(texture(DiffuseDepthSampler, texCoord).r) / 180;
         float fog = smoothstep(noise(texCoord * 8) * .5 + .2, .9, depth + distanceToMiddle);
         fragColor = mix(
             fragColor,
