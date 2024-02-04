@@ -121,14 +121,6 @@ void main() {
     // float paintValue = texture(PaintSampler, texCoord).a;
     // fragColor = fragColor + vec4(fragColor) * paintValue * edge * 2;
 
-    // Playground (Distortion effect)
-    float depth = LinearizeDepth(texture2D(DiffuseDepthSampler, texCoord).r) / 180;
-    float fog = smoothstep(noise(texCoord * 8) * .5 + .2, .9, depth + distanceToMiddle);
-    fragColor = mix(
-        fragColor,
-        vec4(.85, .66, 0.45, 1.0),
-        fog
-    );
     // vec2 samplePos = texCoord
     //     + sin(texCoord * 80 + depth * 70) * 0.009 * depth
     // ;
@@ -251,5 +243,21 @@ void main() {
     effectValue = int(control_color.b * 255.);
     if (effectValue > 0 && effectValue < 255) {
         fragColor = vec4(fragColor.rgb, control_color.b);
+    }
+
+    //Channel #7
+    // Immersion effects merged together
+    control_color = texelFetch(ControlSampler, ivec2(0, 7), 0);
+    effectValue = int(control_color.b * 255.);
+    if (effectValue > 0 && effectValue <= 85) {
+        float immersionStrength = float(effectValue) / 85; 
+        // Distortion effect
+        float depth = LinearizeDepth(texture2D(DiffuseDepthSampler, texCoord).r) / 180;
+        float fog = smoothstep(noise(texCoord * 8) * .5 + .2, .9, depth + distanceToMiddle);
+        fragColor = mix(
+            fragColor,
+            vec4(.85, .66, 0.45, 1.0),
+            fog * immersionStrength
+        );
     }
 }
