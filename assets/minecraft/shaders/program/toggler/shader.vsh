@@ -8,6 +8,7 @@ uniform vec2 ScreenSize;
 uniform sampler2D ControlSampler;
 
 out vec2 texCoord;
+out vec2 screenCoord;
 
 void main(){
     float poi = texture(ControlSampler,vec2(0.0,0.0)).a;
@@ -24,4 +25,5 @@ void main(){
 
     gl_Position = vec4(x, y, 0.2, 1.0);
     texCoord = Position.xy / OutSize;
+    screenCoord = Position.xy;
 }
