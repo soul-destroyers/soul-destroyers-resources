@@ -531,11 +531,39 @@ void main() {
 
 	fragColor = prev_color;
 
-    vec2 toMiddle = normalize(abs(middle - uv)) * .03;
+    float maxDepth = 50;
 
-    float effectVal = Cellular3D(vec3(uv * toMiddle * 20, 0) * 8) + .5;
+    float pixelDepth = LinearizeDepth(texture(DiffuseDepthSampler, texCoord).r) / maxDepth;
+    ivec2 pixelCoord = ivec2(screenCoord);
 
-    fragColor = mix(fragColor, vec4(effectVal), distanceToMiddle + .1);
+    float depthAtPositiveAdjacentX = LinearizeDepth(texelFetch(DiffuseDepthSampler, pixelCoord + ivec2(2, 0), 0).r) / maxDepth;
+    float depthAtNegativeAdjacentX = LinearizeDepth(texelFetch(DiffuseDepthSampler, pixelCoord + ivec2(-2, 0), 0).r) / maxDepth;
+
+    float depthAtPositiveAdjacentY = LinearizeDepth(texelFetch(DiffuseDepthSampler, pixelCoord + ivec2(0, 2), 0).r) / maxDepth;
+    float depthAtNegativeAdjacentY = LinearizeDepth(texelFetch(DiffuseDepthSampler, pixelCoord + ivec2(0, -2), 0).r) / maxDepth;
+
+    float depthDifference = abs(pixelDepth - depthAtPositiveAdjacentX) < abs(pixelDepth - depthAtNegativeAdjacentX) 
+        ? pixelDepth - depthAtPositiveAdjacentX
+        : depthAtNegativeAdjacentX - pixelDepth;
+
+    float depthYDifference = abs(pixelDepth - depthAtPositiveAdjacentY) < abs(pixelDepth - depthAtNegativeAdjacentY) 
+        ? pixelDepth - depthAtPositiveAdjacentY
+        : depthAtNegativeAdjacentY - pixelDepth;
+
+    float differenceSum = abs(depthDifference) + abs(depthYDifference);
+
+    // fragColor = vec4((abs(depthDifference) + abs(depthYDifference)) * 600);
+    vec3 lightColor = vec3(.1, .4, .45);
+
+    fragColor.rgb += lightColor * smoothstep(0.0, 0.8, 1 - pixelDepth - max(.3, differenceSum * 300)) * .5;
+    // fragColor.xyz += (lightColor / (differenceSum * 100));
+
+    // Testing the speed effect
+    // vec2 toMiddle = normalize(abs(middle - uv)) * .03;
+
+    // float effectVal = Cellular3D(vec3(uv * toMiddle * 20, 0) * 8) + .5;
+
+    // fragColor = mix(fragColor, vec4(effectVal), distanceToMiddle + .1);
 
 
     //Playground (Field of view effect)
