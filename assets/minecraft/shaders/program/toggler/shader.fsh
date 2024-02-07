@@ -1,5 +1,7 @@
 #version 150
 
+#define PI_VAL 3.14
+
 uniform sampler2D DiffuseSampler;
 uniform sampler2D DiffuseDepthSampler;
 uniform sampler2D ControlSampler;
@@ -522,44 +524,65 @@ vec4 applyBlur(float Size) {
     return color;
 }
 
+float lightMixRatio(float daytime) {
+    float x = max(0.0, daytime - .3);
+    return clamp((sin(x * PI_VAL) - sqrt(x + .2)) * 5.86, 0, 1);
+}
+
 void main() {
     vec4 prev_color = texture(DiffuseSampler, texCoord);
 
     vec2 uv = texCoord;
     vec2 middle = vec2(0.5, 0.5);
     float distanceToMiddle = abs(distance(uv, middle)) - 0.2;
-
     float linearizedDepth = LinearizeDepth(texture(DiffuseDepthSampler, texCoord).r);
 
 	fragColor = prev_color;
+    float daytime = texelFetch(ControlSampler, ivec2(0, 8), 0).b;
 
-    float maxDepth = 50;
+    // Tests for flashlights
+    // float maxDepth = 50;
 
-    float pixelDepth = LinearizeDepth(texture(DiffuseDepthSampler, texCoord).r) / maxDepth;
-    ivec2 pixelCoord = ivec2(screenCoord);
+    // float pixelDepth = LinearizeDepth(texture(DiffuseDepthSampler, texCoord).r) / maxDepth;
+    // ivec2 pixelCoord = ivec2(screenCoord);
 
-    float depthAtPositiveAdjacentX = LinearizeDepth(texelFetch(DiffuseDepthSampler, pixelCoord + ivec2(2, 0), 0).r) / maxDepth;
-    float depthAtNegativeAdjacentX = LinearizeDepth(texelFetch(DiffuseDepthSampler, pixelCoord + ivec2(-2, 0), 0).r) / maxDepth;
+    // float depthAtPositiveAdjacentX = LinearizeDepth(texelFetch(DiffuseDepthSampler, pixelCoord + ivec2(2, 0), 0).r) / maxDepth;
+    // float depthAtNegativeAdjacentX = LinearizeDepth(texelFetch(DiffuseDepthSampler, pixelCoord + ivec2(-2, 0), 0).r) / maxDepth;
 
-    float depthAtPositiveAdjacentY = LinearizeDepth(texelFetch(DiffuseDepthSampler, pixelCoord + ivec2(0, 2), 0).r) / maxDepth;
-    float depthAtNegativeAdjacentY = LinearizeDepth(texelFetch(DiffuseDepthSampler, pixelCoord + ivec2(0, -2), 0).r) / maxDepth;
+    // float depthAtPositiveAdjacentY = LinearizeDepth(texelFetch(DiffuseDepthSampler, pixelCoord + ivec2(0, 2), 0).r) / maxDepth;
+    // float depthAtNegativeAdjacentY = LinearizeDepth(texelFetch(DiffuseDepthSampler, pixelCoord + ivec2(0, -2), 0).r) / maxDepth;
 
-    float depthDifference = abs(pixelDepth - depthAtPositiveAdjacentX) < abs(pixelDepth - depthAtNegativeAdjacentX) 
-        ? pixelDepth - depthAtPositiveAdjacentX
-        : depthAtNegativeAdjacentX - pixelDepth;
+    // float depthDifference = abs(pixelDepth - depthAtPositiveAdjacentX) < abs(pixelDepth - depthAtNegativeAdjacentX) 
+    //     ? pixelDepth - depthAtPositiveAdjacentX
+    //     : depthAtNegativeAdjacentX - pixelDepth;
 
-    float depthYDifference = abs(pixelDepth - depthAtPositiveAdjacentY) < abs(pixelDepth - depthAtNegativeAdjacentY) 
-        ? pixelDepth - depthAtPositiveAdjacentY
-        : depthAtNegativeAdjacentY - pixelDepth;
+    // float depthYDifference = abs(pixelDepth - depthAtPositiveAdjacentY) < abs(pixelDepth - depthAtNegativeAdjacentY) 
+    //     ? pixelDepth - depthAtPositiveAdjacentY
+    //     : depthAtNegativeAdjacentY - pixelDepth;
 
-    float differenceSum = abs(depthDifference) + abs(depthYDifference);
+    // float differenceSum = abs(depthDifference) + abs(depthYDifference);
 
     // fragColor = vec4((abs(depthDifference) + abs(depthYDifference)) * 600);
-    vec3 lightColor = vec3(.1, .4, .45);
-
+    // Night effect
+    
     float d = linearizedDepth / 240;
-    float atmosphere = smoothstep(.3, .9, d + distanceToMiddle * .3);
-    fragColor.xyz = fragColor.xyz + lightColor * atmosphere;
+    
+    vec3 nightLightColor = vec3(.1, .4, .45);
+    float nightAtmosphere = smoothstep(.3, .9, d + distanceToMiddle * .3);
+    vec3 nightColors = fragColor.xyz + nightLightColor * nightAtmosphere;
+    
+
+    // day effect
+    vec3 daylightColor = vec3(.5, .4, .2);
+    float dayAtmosphere = smoothstep(.3, .8, d + distanceToMiddle * .3);
+    vec3 dayColors = fragColor.xyz - fragColor.xyz * d * .1;
+    dayColors += daylightColor * dayAtmosphere * .4;
+    
+    fragColor.xyz = mix(
+        dayColors,
+        nightColors,
+        lightMixRatio(daytime)
+    );
 
     // fragColor.rgb += lightColor * smoothstep(0.0, 0.8, 1 - pixelDepth - max(.3, differenceSum * 300)) * .5;
     // fragColor.xyz += (lightColor / (differenceSum * 100));

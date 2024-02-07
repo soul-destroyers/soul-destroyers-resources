@@ -33,6 +33,7 @@ void main() {
             || (abs(tint.g * 255. - 249.) < .5 && iCoord != ivec2(0, 8))
             || (abs(tint.g * 255. - 248.) < .5 && iCoord != ivec2(0, 10))
             || (abs(tint.g * 255. - 247.) < .5 && iCoord != ivec2(0, 12))
+            || (abs(tint.g * 255. - 246.) < .5 && iCoord != ivec2(0, 14))
         )
             discard;
     } else {

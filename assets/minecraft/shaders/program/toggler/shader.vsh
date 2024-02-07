@@ -9,6 +9,7 @@ uniform sampler2D ControlSampler;
 
 out vec2 texCoord;
 out vec2 screenCoord;
+// out float daytime;
 
 void main(){
     float poi = texture(ControlSampler,vec2(0.0,0.0)).a;
@@ -26,4 +27,6 @@ void main(){
     gl_Position = vec4(x, y, 0.2, 1.0);
     texCoord = Position.xy / OutSize;
     screenCoord = Position.xy;
+    // Channel #8 daytime
+    // daytime = texelFetch(ControlSampler, ivec2(0, 8), 0);
 }
