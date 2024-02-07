@@ -529,6 +529,8 @@ void main() {
     vec2 middle = vec2(0.5, 0.5);
     float distanceToMiddle = abs(distance(uv, middle)) - 0.2;
 
+    float linearizedDepth = LinearizeDepth(texture(DiffuseDepthSampler, texCoord).r);
+
 	fragColor = prev_color;
 
     float maxDepth = 50;
@@ -555,7 +557,11 @@ void main() {
     // fragColor = vec4((abs(depthDifference) + abs(depthYDifference)) * 600);
     vec3 lightColor = vec3(.1, .4, .45);
 
-    fragColor.rgb += lightColor * smoothstep(0.0, 0.8, 1 - pixelDepth - max(.3, differenceSum * 300)) * .5;
+    float d = linearizedDepth / 240;
+    float atmosphere = smoothstep(.3, .9, d + distanceToMiddle * .3);
+    fragColor.xyz = fragColor.xyz + lightColor * atmosphere;
+
+    // fragColor.rgb += lightColor * smoothstep(0.0, 0.8, 1 - pixelDepth - max(.3, differenceSum * 300)) * .5;
     // fragColor.xyz += (lightColor / (differenceSum * 100));
 
     // Testing the speed effect
