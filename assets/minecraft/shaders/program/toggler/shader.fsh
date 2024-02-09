@@ -540,6 +540,8 @@ void main() {
 	fragColor = prev_color;
     float daytime = texelFetch(ControlSampler, ivec2(0, 8), 0).b;
 
+    bool isSky = linearizedDepth > 500;
+
     // Tests for flashlights
     // float maxDepth = 50;
 
@@ -567,16 +569,19 @@ void main() {
     
     float d = linearizedDepth / 240;
     
-    vec3 nightLightColor = vec3(.1, .4, .45);
+    vec3 nightLightColor = vec3(.01, .1, .15);
     float nightAtmosphere = smoothstep(.3, .9, d + distanceToMiddle * .3);
-    vec3 nightColors = fragColor.xyz + nightLightColor * nightAtmosphere;
+    vec3 nightColorDelta = nightLightColor - fragColor.xyz;
+    vec3 nightColors = fragColor.xyz 
+        + (nightColorDelta * nightAtmosphere * (isSky ? 0 : .6));
     
 
     // day effect
-    vec3 daylightColor = vec3(.5, .4, .2);
+    vec3 daylightColor = vec3(.9, .8, .65);
     float dayAtmosphere = smoothstep(.3, .8, d + distanceToMiddle * .3);
     vec3 dayColors = fragColor.xyz - fragColor.xyz * d * .1;
-    dayColors += daylightColor * dayAtmosphere * .4;
+    vec3 dayColorDelta = daylightColor - fragColor.xyz;
+    dayColors += dayColorDelta * d * (isSky ? 0 : .5);
     
     fragColor.xyz = mix(
         dayColors,
